@@ -1,0 +1,71 @@
+[0.033s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition
+[0.048s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.343s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.427s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.451s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.494s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.508s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.753s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.878s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.915s] -- Found FastRTPS: /opt/ros/iron/include  
+[0.970s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.181s] -- Found rclcpp_components: 21.0.5 (/opt/ros/iron/share/rclcpp_components/cmake)
+[1.315s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.358s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.489s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.491s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.491s] -- Configured cppcheck include dirs: /home/lasantha/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[1.500s] -- Configured cppcheck exclude dirs and/or files: 
+[1.502s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.502s] -- Configured cpplint exclude dirs and/or files: 
+[1.502s] -- Added test 'lint_cmake' to check CMake code style
+[1.503s] -- Added test 'uncrustify' to check C / C++ code style
+[1.504s] -- Configured uncrustify additional arguments: 
+[1.504s] -- Added test 'xmllint' to check XML markup files
+[1.506s] -- Configuring done
+[1.570s] -- Generating done
+[1.572s] -- Build files have been written to: /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition
+[1.605s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition
+[1.606s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[1.853s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[1.911s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[31.575s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[32.498s] [ 33%] Built target composition_nodes
+[32.638s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[39.211s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[39.659s] [ 55%] Built target composition_publisher
+[39.716s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[44.929s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[45.156s] [ 77%] Built target composition_composed
+[45.180s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[48.673s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[48.922s] [100%] Built target composition_subscriber
+[48.944s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition -- -j8 -l8
+[49.031s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition
+[49.045s] -- Install configuration: ""
+[49.046s] -- Execute custom install script
+[49.046s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[49.065s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[49.085s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[49.108s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[49.125s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[49.142s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[49.159s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[49.178s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[49.198s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[49.218s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[49.235s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[49.253s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[49.271s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[49.290s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[49.307s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[49.326s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[49.344s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[49.362s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[49.383s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[49.401s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[49.423s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[49.447s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_composition

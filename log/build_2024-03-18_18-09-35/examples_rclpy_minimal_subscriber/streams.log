@@ -1,0 +1,28 @@
+[1.512s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lasantha/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data
+[2.265s] running develop
+[2.265s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.266s]   warnings.warn(
+[2.679s] running egg_info
+[2.679s] creating examples_rclpy_minimal_subscriber.egg-info
+[2.680s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[2.680s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[2.681s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[2.681s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[2.681s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[2.682s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.685s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.686s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[2.690s] running build_ext
+[2.690s] Creating /home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[2.692s] Installing subscriber_lambda script to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.692s] Installing subscriber_member_function script to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.693s] Installing subscriber_old_school script to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[2.693s] 
+[2.693s] Installed /home/lasantha/ros2_ws/build/examples_rclpy_minimal_subscriber
+[2.693s] running symlink_data
+[2.693s] creating /home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[2.694s] creating /home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[2.694s] creating /home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.694s] symbolically linking /home/lasantha/ros2_ws/build/examples_rclpy_minimal_subscriber/resource/examples_rclpy_minimal_subscriber -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[2.694s] symbolically linking /home/lasantha/ros2_ws/build/examples_rclpy_minimal_subscriber/package.xml -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[2.757s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lasantha/ros2_ws/build/examples_rclpy_minimal_subscriber/build --no-deps symlink_data

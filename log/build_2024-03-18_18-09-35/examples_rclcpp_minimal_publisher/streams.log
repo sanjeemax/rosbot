@@ -1,0 +1,75 @@
+[0.034s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher
+[1.381s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.381s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.382s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.382s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[1.382s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.382s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.382s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.382s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.382s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.382s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.382s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.382s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.382s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.382s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.382s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.382s] -- Configured cppcheck include dirs: 
+[1.382s] -- Configured cppcheck exclude dirs and/or files: 
+[1.383s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.383s] -- Configured cpplint exclude dirs and/or files: 
+[1.383s] -- Added test 'lint_cmake' to check CMake code style
+[1.383s] -- Added test 'uncrustify' to check C / C++ code style
+[1.383s] -- Configured uncrustify additional arguments: 
+[1.383s] -- Added test 'xmllint' to check XML markup files
+[1.383s] -- Configuring done
+[1.383s] -- Generating done
+[1.383s] -- Build files have been written to: /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher
+[1.398s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher
+[1.399s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[1.563s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[1.563s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[1.565s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[1.583s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[1.611s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[1.641s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[20.539s] [ 58%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[21.128s] [ 58%] Built target publisher_not_composable
+[22.032s] [ 66%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[22.476s] [ 66%] Built target publisher_member_function_with_type_adapter
+[23.957s] [ 75%] [32m[1mLinking CXX executable publisher_member_function[0m
+[24.556s] [ 83%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[24.926s] [ 91%] [32m[1mLinking CXX executable publisher_lambda[0m
+[24.956s] [ 91%] Built target publisher_member_function
+[25.392s] [ 91%] Built target publisher_lambda
+[25.574s] [ 91%] Built target publisher_wait_for_all_acked
+[26.001s] [100%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[26.766s] [100%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[26.852s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[27.059s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher
+[27.089s] -- Install configuration: ""
+[27.091s] -- Execute custom install script
+[27.092s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[27.121s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[27.148s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[27.176s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[27.189s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[27.211s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[27.229s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[27.247s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[27.266s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[27.292s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[27.318s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[27.334s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[27.353s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[27.370s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[27.387s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[27.404s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[27.421s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[27.448s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[27.459s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[27.484s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[27.502s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[27.536s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/lasantha/ros2_ws/build/examples_rclcpp_minimal_publisher

@@ -7,7 +7,7 @@ from datetime import datetime
 import csv
 from more_interfaces.msg import CustomState
 
-RUN_TIME = 10
+RUN_TIME = 8#10
 LOG_FILE_PATH = "/home/lasantha/"
 
 class OdomSubscriber(Node):
@@ -98,16 +98,6 @@ class OdomSubscriber(Node):
         row.append(angular_velocity.x)
         row.append(angular_velocity.y)
         row.append(angular_velocity.z)
-        # Print the position and orientation
-        #self.get_logger().info(
-        #    f'Position: [{position.x}, {position.y}, {position.z}], '
-        #    f'Orientation: [{orientation.x}, {orientation.y}, {orientation.z}, {orientation.w}]'
-        #)
-        # Print the linear and angular velocities
-        #self.get_logger().info(
-        #    f'Linear Velocity: [{linear_velocity.x}, {linear_velocity.y}, {linear_velocity.z}], '
-        #    f'Angular Velocity: [{angular_velocity.x}, {angular_velocity.y}, {angular_velocity.z}]'
-        #)
         end_time = time.time()
         elapsed_time = end_time - self.start_time
         #print("elapsed_time: {}".format(elapsed_time))

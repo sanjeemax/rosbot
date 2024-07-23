@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from more_interfaces/srv/PilcoTwist.srv
+// generated code does not contain a copyright notice
+
+
+module more_interfaces {
+  module srv {
+    struct PilcoTwist_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct PilcoTwist_Response {
+      double linx;
+
+      double revz;
+    };
+  };
+};

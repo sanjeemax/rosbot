@@ -1,0 +1,41 @@
+-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lasantha/ros2_ws/build/more_interfaces
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_more_interfaces
+Traceback (most recent call last):
+  File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 50, in <module>
+    sys.exit(main())
+  File "/opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description", line 46, in main
+    generate_type_hash(args.generator_arguments_file)
+  File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_generator_type_description/__init__.py", line 162, in generate_type_hash
+    with include_path.open('r') as include_file:
+  File "/usr/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/lasantha/ros2_ws/build/more_interfaces/rosidl_generator_type_description/more_interfaces/msg/Twist.json'
+gmake[2]: *** [CMakeFiles/more_interfaces__rosidl_generator_type_description.dir/build.make:75: rosidl_generator_type_description/more_interfaces/msg/CustomState.json] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/more_interfaces__rosidl_generator_type_description.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+running egg_info
+writing more_interfaces.egg-info/PKG-INFO
+writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+writing top-level names to more_interfaces.egg-info/top_level.txt
+reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[  2%] Built target ament_cmake_python_build_more_interfaces_egg
+gmake: *** [Makefile:146: all] Error 2

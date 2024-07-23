@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.000181] (-) JobUnselected: {'identifier': 'ardupilot_dds_tests'}
+[0.000321] (-) JobUnselected: {'identifier': 'ardupilot_msgs'}
+[0.000332] (-) JobUnselected: {'identifier': 'ardupilot_sitl'}
+[0.000341] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000349] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000357] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000366] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000374] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000381] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000389] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000397] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000405] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000413] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000421] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000429] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000437] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000445] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000453] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000461] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000470] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000478] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000486] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000494] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000502] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000510] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000518] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000526] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000534] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.000542] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.000550] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000558] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.000566] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.000574] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000582] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.000590] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.000598] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.000606] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.000614] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.000622] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.000629] (-) JobUnselected: {'identifier': 'sdformat_test_files'}
+[0.000637] (-) JobUnselected: {'identifier': 'sdformat_urdf'}
+[0.000645] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.000653] (-) JobUnselected: {'identifier': 'urdf_tutorial_r2d2'}
+[0.000663] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000674] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.006599] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.006643] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/lasantha/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/lasantha/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/lasantha/motor_plugin/build:'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '2934'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1438f9e0_14f0_42d9_bdd7_8c01b56f996e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/lasantha/motor_plugin/build:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.045893] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.081880] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.086800] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099846] (-) TimerEvent: {}
+[0.151947] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.157369] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.157564] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.158211] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.160498] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199960] (-) TimerEvent: {}
+[0.216643] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.221235] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.221462] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.221809] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.223200] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.300154] (-) TimerEvent: {}
+[0.362744] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.400325] (-) TimerEvent: {}
+[0.421189] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.446768] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.453908] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.463373] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.474669] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500475] (-) TimerEvent: {}
+[0.588470] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.589928] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600634] (-) TimerEvent: {}
+[0.658723] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.677662] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[0.700822] (-) TimerEvent: {}
+[0.707722] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800996] (-) TimerEvent: {}
+[0.810496] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[0.830391] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[0.881394] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.881583] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.881633] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.881671] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.882201] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.882285] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.882330] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.882940] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.888297] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.889131] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/lasantha/ros2_ws/build/cpp_pubsub\n'}
+[0.895761] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[0.896517] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.896536] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lasantha/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/lasantha/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/lasantha/motor_plugin/build:'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '2934'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1438f9e0_14f0_42d9_bdd7_8c01b56f996e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/lasantha/motor_plugin/build:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.901046] (-) TimerEvent: {}
+[0.934168] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.001161] (-) TimerEvent: {}
+[1.101525] (-) TimerEvent: {}
+[1.201888] (-) TimerEvent: {}
+[1.302210] (-) TimerEvent: {}
+[1.402569] (-) TimerEvent: {}
+[1.502891] (-) TimerEvent: {}
+[1.603214] (-) TimerEvent: {}
+[1.703555] (-) TimerEvent: {}
+[1.803887] (-) TimerEvent: {}
+[1.904202] (-) TimerEvent: {}
+[2.004542] (-) TimerEvent: {}
+[2.104898] (-) TimerEvent: {}
+[2.205143] (-) TimerEvent: {}
+[2.305461] (-) TimerEvent: {}
+[2.405823] (-) TimerEvent: {}
+[2.506152] (-) TimerEvent: {}
+[2.606493] (-) TimerEvent: {}
+[2.706828] (-) TimerEvent: {}
+[2.807161] (-) TimerEvent: {}
+[2.907504] (-) TimerEvent: {}
+[3.007832] (-) TimerEvent: {}
+[3.108174] (-) TimerEvent: {}
+[3.208538] (-) TimerEvent: {}
+[3.308904] (-) TimerEvent: {}
+[3.409257] (-) TimerEvent: {}
+[3.509609] (-) TimerEvent: {}
+[3.609897] (-) TimerEvent: {}
+[3.660410] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.710001] (-) TimerEvent: {}
+[3.770707] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[3.778312] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.799040] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[3.805623] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lasantha/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/lasantha/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/lasantha/motor_plugin/build:'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '2934'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1438f9e0_14f0_42d9_bdd7_8c01b56f996e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/lasantha/motor_plugin/build:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[3.810086] (-) TimerEvent: {}
+[3.811131] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.811220] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[3.812008] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/lasantha/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[3.812083] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[3.812148] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[3.812196] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[3.812249] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[3.812301] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[3.812353] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[3.812399] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[3.812453] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[3.812514] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[3.812573] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[3.812633] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[3.812713] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[3.812788] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[3.812836] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[3.812906] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[3.814272] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.844175] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[3.844793] (-) EventReactorShutdown: {}

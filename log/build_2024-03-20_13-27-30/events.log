@@ -1,0 +1,995 @@
+[0.000000] (-) TimerEvent: {}
+[0.000385] (-) JobUnselected: {'identifier': 'ardupilot_dds_tests'}
+[0.000548] (-) JobUnselected: {'identifier': 'ardupilot_gz_application'}
+[0.000561] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000572] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000581] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000592] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000601] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000617] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000627] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000637] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000646] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000656] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000665] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000676] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000686] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000695] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000705] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000714] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000724] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000734] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000744] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000753] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000763] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000772] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000782] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000791] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.000801] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000810] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000820] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.000829] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.000839] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.000848] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.000858] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.000867] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.000877] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.000886] (-) JobUnselected: {'identifier': 'urdf_tutorial_r2d2'}
+[0.000900] (ardupilot_gazebo) JobQueued: {'identifier': 'ardupilot_gazebo', 'dependencies': OrderedDict()}
+[0.000914] (ardupilot_gz_description) JobQueued: {'identifier': 'ardupilot_gz_description', 'dependencies': OrderedDict()}
+[0.000924] (ardupilot_gz_gazebo) JobQueued: {'identifier': 'ardupilot_gz_gazebo', 'dependencies': OrderedDict()}
+[0.000934] (ardupilot_msgs) JobQueued: {'identifier': 'ardupilot_msgs', 'dependencies': OrderedDict()}
+[0.000943] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.000953] (ros_gz_interfaces) JobQueued: {'identifier': 'ros_gz_interfaces', 'dependencies': OrderedDict()}
+[0.000962] (ros_gz_sim) JobQueued: {'identifier': 'ros_gz_sim', 'dependencies': OrderedDict()}
+[0.000971] (sdformat_test_files) JobQueued: {'identifier': 'sdformat_test_files', 'dependencies': OrderedDict()}
+[0.000980] (ardupilot_sitl) JobQueued: {'identifier': 'ardupilot_sitl', 'dependencies': OrderedDict([('ardupilot_msgs', '/home/lasantha/ros2_ws/install/ardupilot_msgs'), ('micro_ros_agent', '/home/lasantha/ros2_ws/install/micro_ros_agent')])}
+[0.000993] (ardupilot_sitl_models) JobQueued: {'identifier': 'ardupilot_sitl_models', 'dependencies': OrderedDict([('ardupilot_gazebo', '/home/lasantha/ros2_ws/install/ardupilot_gazebo')])}
+[0.001003] (ros_gz_bridge) JobQueued: {'identifier': 'ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/lasantha/ros2_ws/install/ros_gz_interfaces')])}
+[0.001063] (sdformat_urdf) JobQueued: {'identifier': 'sdformat_urdf', 'dependencies': OrderedDict([('sdformat_test_files', '/home/lasantha/ros2_ws/install/sdformat_test_files')])}
+[0.001101] (ardupilot_gz_bringup) JobQueued: {'identifier': 'ardupilot_gz_bringup', 'dependencies': OrderedDict([('ardupilot_gazebo', '/home/lasantha/ros2_ws/install/ardupilot_gazebo'), ('ardupilot_gz_description', '/home/lasantha/ros2_ws/install/ardupilot_gz_description'), ('ardupilot_gz_gazebo', '/home/lasantha/ros2_ws/install/ardupilot_gz_gazebo'), ('micro_ros_agent', '/home/lasantha/ros2_ws/install/micro_ros_agent'), ('ros_gz_interfaces', '/home/lasantha/ros2_ws/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/lasantha/ros2_ws/install/ros_gz_sim'), ('ardupilot_sitl', '/home/lasantha/ros2_ws/install/ardupilot_sitl'), ('ardupilot_sitl_models', '/home/lasantha/ros2_ws/install/ardupilot_sitl_models'), ('ros_gz_bridge', '/home/lasantha/ros2_ws/install/ros_gz_bridge'), ('sdformat_urdf', '/home/lasantha/ros2_ws/install/sdformat_urdf')])}
+[0.001144] (ardupilot_gazebo) JobStarted: {'identifier': 'ardupilot_gazebo'}
+[0.006865] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.009807] (ros_gz_interfaces) JobStarted: {'identifier': 'ros_gz_interfaces'}
+[0.013258] (ardupilot_gz_description) JobStarted: {'identifier': 'ardupilot_gz_description'}
+[0.016433] (ardupilot_gz_gazebo) JobStarted: {'identifier': 'ardupilot_gz_gazebo'}
+[0.019250] (ardupilot_msgs) JobStarted: {'identifier': 'ardupilot_msgs'}
+[0.022411] (ros_gz_sim) JobStarted: {'identifier': 'ros_gz_sim'}
+[0.025627] (sdformat_test_files) JobStarted: {'identifier': 'sdformat_test_files'}
+[0.030503] (ardupilot_gazebo) JobProgress: {'identifier': 'ardupilot_gazebo', 'progress': 'cmake'}
+[0.030632] (ardupilot_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/lasantha/ros2_ws/src/ardupilot_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ardupilot_gazebo'], 'cwd': '/home/lasantha/ros2_ws/build/ardupilot_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/ardupilot_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.032793] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.032972] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/micro_ros_agent'], 'cwd': '/home/lasantha/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/micro_ros_agent'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.034929] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'cmake'}
+[0.034958] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/lasantha/ros2_ws/src/ros_gz/ros_gz_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ros_gz_interfaces'], 'cwd': '/home/lasantha/ros2_ws/build/ros_gz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/ros_gz_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.036878] (ardupilot_gz_description) JobProgress: {'identifier': 'ardupilot_gz_description', 'progress': 'cmake'}
+[0.036909] (ardupilot_gz_description) Command: {'cmd': ['/usr/bin/cmake', '/home/lasantha/ros2_ws/src/ardupilot_gz/ardupilot_gz_description', '-DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ardupilot_gz_description'], 'cwd': '/home/lasantha/ros2_ws/build/ardupilot_gz_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/ardupilot_gz_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.038853] (ardupilot_gz_gazebo) JobProgress: {'identifier': 'ardupilot_gz_gazebo', 'progress': 'cmake'}
+[0.038889] (ardupilot_gz_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/lasantha/ros2_ws/src/ardupilot_gz/ardupilot_gz_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ardupilot_gz_gazebo'], 'cwd': '/home/lasantha/ros2_ws/build/ardupilot_gz_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/ardupilot_gz_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.040449] (ardupilot_msgs) JobProgress: {'identifier': 'ardupilot_msgs', 'progress': 'cmake'}
+[0.040481] (ardupilot_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/lasantha/ros2_ws/src/ardupilot/Tools/ros2/ardupilot_msgs', '-DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ardupilot_msgs'], 'cwd': '/home/lasantha/ros2_ws/build/ardupilot_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/ardupilot_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.042196] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'cmake'}
+[0.042225] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/lasantha/ros2_ws/src/ros_gz/ros_gz_sim', '-DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ros_gz_sim'], 'cwd': '/home/lasantha/ros2_ws/build/ros_gz_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/ros_gz_sim'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.048750] (sdformat_test_files) JobProgress: {'identifier': 'sdformat_test_files', 'progress': 'cmake'}
+[0.049700] (sdformat_test_files) Command: {'cmd': ['/usr/bin/cmake', '/home/lasantha/ros2_ws/src/sdformat_urdf/sdformat_test_files', '-DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/sdformat_test_files'], 'cwd': '/home/lasantha/ros2_ws/build/sdformat_test_files', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/sdformat_test_files'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.099838] (-) TimerEvent: {}
+[0.104498] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.105473] (ardupilot_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.105792] (ardupilot_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.106393] (ardupilot_gz_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.106513] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.108946] (ros_gz_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.116344] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.175865] (ardupilot_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.176121] (ardupilot_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.176217] (ardupilot_gz_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.176743] (ros_gz_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.179085] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.184181] (ardupilot_gz_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.184407] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.184525] (ardupilot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.185559] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.188290] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199948] (-) TimerEvent: {}
+[0.205072] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.216123] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.216907] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.217707] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.268350] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.269134] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.269312] (ardupilot_gz_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.271779] (ardupilot_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.276110] (ardupilot_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.276329] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.276841] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.279604] (ros_gz_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.279767] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.280143] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.281376] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.282682] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.283538] (ardupilot_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.283698] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.283883] (ardupilot_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.283995] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.284378] (ardupilot_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.285245] (ardupilot_gz_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.285499] (ardupilot_gz_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.286077] (ardupilot_gz_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.288032] (ardupilot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.289946] (ardupilot_gz_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.293613] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.293766] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.293846] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.293924] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.295797] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300033] (-) TimerEvent: {}
+[0.386286] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.387796] (ardupilot_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.388063] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.388230] (ardupilot_gz_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.391594] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.396504] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.397752] (ardupilot_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.398040] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.398360] (ros_gz_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.398561] (ardupilot_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.398663] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.399297] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399656] (ardupilot_gz_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.400020] (ardupilot_gz_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.400110] (-) TimerEvent: {}
+[0.401886] (ardupilot_gz_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.402073] (ardupilot_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.402169] (ardupilot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.402254] (ardupilot_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.404374] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.405764] (ardupilot_gz_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.406405] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.406880] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.407068] (ardupilot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.407453] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.407729] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.407935] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.408389] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.413448] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.447986] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.450621] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[0.451114] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/lasantha/ros2_ws/build/micro_ros_agent\n'}
+[0.454561] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[0.455099] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[0.455141] (ros_gz_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.455884] (ros_gz_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.456879] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.456964] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.457024] (ros_gz_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.457084] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.457141] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.457200] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.457258] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.457316] (ros_gz_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.457373] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.457428] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.457485] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.457546] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lasantha/ros2_ws/build/micro_ros_agent', '--', '-j8', '-l8'], 'cwd': '/home/lasantha/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/micro_ros_agent'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.500234] (-) TimerEvent: {}
+[0.600744] (-) TimerEvent: {}
+[0.697044] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.700841] (-) TimerEvent: {}
+[0.704836] (ardupilot_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.706066] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.710228] (ardupilot_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.712232] (ardupilot_gz_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.724561] (ros_gz_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.800951] (-) TimerEvent: {}
+[0.824044] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.6.0 (/opt/ros/iron/share/builtin_interfaces/cmake)\n'}
+[0.831925] (ardupilot_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[0.847653] (ardupilot_gz_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[0.847918] (ardupilot_gz_gazebo) StderrLine: {'line': b'  By not providing "Findgz-cmake3.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.848018] (ardupilot_gz_gazebo) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.848106] (ardupilot_gz_gazebo) StderrLine: {'line': b'  "gz-cmake3", but CMake did not find one.\n'}
+[0.848191] (ardupilot_gz_gazebo) StderrLine: {'line': b'\n'}
+[0.848272] (ardupilot_gz_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "gz-cmake3" with\n'}
+[0.848350] (ardupilot_gz_gazebo) StderrLine: {'line': b'  any of the following names:\n'}
+[0.848427] (ardupilot_gz_gazebo) StderrLine: {'line': b'\n'}
+[0.848507] (ardupilot_gz_gazebo) StderrLine: {'line': b'    gz-cmake3Config.cmake\n'}
+[0.848583] (ardupilot_gz_gazebo) StderrLine: {'line': b'    gz-cmake3-config.cmake\n'}
+[0.848655] (ardupilot_gz_gazebo) StderrLine: {'line': b'\n'}
+[0.848725] (ardupilot_gz_gazebo) StderrLine: {'line': b'  Add the installation prefix of "gz-cmake3" to CMAKE_PREFIX_PATH or set\n'}
+[0.848794] (ardupilot_gz_gazebo) StderrLine: {'line': b'  "gz-cmake3_DIR" to a directory containing one of the above files.  If\n'}
+[0.848861] (ardupilot_gz_gazebo) StderrLine: {'line': b'  "gz-cmake3" provides a separate development package or SDK, be sure it has\n'}
+[0.848928] (ardupilot_gz_gazebo) StderrLine: {'line': b'  been installed.\n'}
+[0.848997] (ardupilot_gz_gazebo) StderrLine: {'line': b'\n'}
+[0.849062] (ardupilot_gz_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.849128] (ardupilot_gz_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.849203] (ardupilot_gz_gazebo) StdoutLine: {'line': b'See also "/home/lasantha/ros2_ws/build/ardupilot_gz_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[0.851523] (ardupilot_gz_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[0.852740] (sdformat_test_files) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.853111] (sdformat_test_files) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.853193] (sdformat_test_files) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.853261] (sdformat_test_files) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.853326] (sdformat_test_files) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.853391] (sdformat_test_files) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.853454] (sdformat_test_files) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.853518] (sdformat_test_files) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.853582] (sdformat_test_files) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.853645] (sdformat_test_files) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.853710] (sdformat_test_files) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.853774] (sdformat_test_files) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.853837] (sdformat_test_files) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.853900] (sdformat_test_files) StdoutLine: {'line': b'-- Generating done\n'}
+[0.853980] (sdformat_test_files) StdoutLine: {'line': b'-- Build files have been written to: /home/lasantha/ros2_ws/build/sdformat_test_files\n'}
+[0.854065] (ardupilot_gz_gazebo) CommandEnded: {'returncode': 1}
+[0.854625] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[0.855011] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[0.855148] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[0.855246] (ardupilot_gazebo) StderrLine: {'line': b'\x1b[0mBuilding ardupilot_gazebo as an `ament_cmake` project.\x1b[0m\n'}
+[0.856256] (sdformat_test_files) CommandEnded: {'returncode': 0}
+[0.857147] (sdformat_test_files) JobProgress: {'identifier': 'sdformat_test_files', 'progress': 'build'}
+[0.857558] (sdformat_test_files) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lasantha/ros2_ws/build/sdformat_test_files', '--', '-j8', '-l8'], 'cwd': '/home/lasantha/ros2_ws/build/sdformat_test_files', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lasantha'), ('LC_TIME', 'sv_SE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin'), ('HOME', '/home/lasantha'), ('OLDPWD', '/home/lasantha/ros2_ws/second_ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sv_SE.UTF-8'), ('SYSTEMD_EXEC_PID', '6713'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install:/home/lasantha/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'lasantha'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lasantha'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools'), ('SESSION_MANAGER', 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sv_SE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/af2649ad_1131_44dc_9b77_7ed868e24f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sv_SE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sv_SE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sv_SE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'sv_SE.UTF-8'), ('GZ_VERSION', 'harmonic'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-1.11.0-openjdk-amd64'), ('PWD', '/home/lasantha/ros2_ws/build/sdformat_test_files'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/home/lasantha/motor_plugin/build:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ANDROID_HOME', '/home/lasantha/android-sdk'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'sv_SE.UTF-8'), ('ANDROID_NDK', '~/Android/Sdk/ndk-bundle'), ('LC_PAPER', 'sv_SE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron')]), 'shell': False}
+[0.867676] (ardupilot_gazebo) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (find_package):\n'}
+[0.867982] (ardupilot_gazebo) StderrLine: {'line': b'  By not providing "Findgz-cmake3.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.868075] (ardupilot_gazebo) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.868149] (ardupilot_gazebo) StderrLine: {'line': b'  "gz-cmake3", but CMake did not find one.\n'}
+[0.868217] (ardupilot_gazebo) StderrLine: {'line': b'\n'}
+[0.868282] (ardupilot_gazebo) StderrLine: {'line': b'  Could not find a package configuration file provided by "gz-cmake3" with\n'}
+[0.868345] (ardupilot_gazebo) StderrLine: {'line': b'  any of the following names:\n'}
+[0.868409] (ardupilot_gazebo) StderrLine: {'line': b'\n'}
+[0.868469] (ardupilot_gazebo) StderrLine: {'line': b'    gz-cmake3Config.cmake\n'}
+[0.868527] (ardupilot_gazebo) StderrLine: {'line': b'    gz-cmake3-config.cmake\n'}
+[0.868590] (ardupilot_gazebo) StderrLine: {'line': b'\n'}
+[0.868680] (ardupilot_gazebo) StderrLine: {'line': b'  Add the installation prefix of "gz-cmake3" to CMAKE_PREFIX_PATH or set\n'}
+[0.868738] (ardupilot_gazebo) StderrLine: {'line': b'  "gz-cmake3_DIR" to a directory containing one of the above files.  If\n'}
+[0.868795] (ardupilot_gazebo) StderrLine: {'line': b'  "gz-cmake3" provides a separate development package or SDK, be sure it has\n'}
+[0.868852] (ardupilot_gazebo) StderrLine: {'line': b'  been installed.\n'}
+[0.868911] (ardupilot_gazebo) StderrLine: {'line': b'\n'}
+[0.868967] (ardupilot_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.869023] (ardupilot_gazebo) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.869092] (ardupilot_gazebo) StdoutLine: {'line': b'See also "/home/lasantha/ros2_ws/build/ardupilot_gazebo/CMakeFiles/CMakeOutput.log".\n'}
+[0.870149] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.870342] (ros_gz_sim) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.881584] (ardupilot_gz_gazebo) JobEnded: {'identifier': 'ardupilot_gz_gazebo', 'rc': 1}
+[0.882776] (ardupilot_gazebo) JobEnded: {'identifier': 'ardupilot_gazebo', 'rc': 'SIGINT'}
+[0.883981] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.886329] (ardupilot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.896321] (sdformat_test_files) JobEnded: {'identifier': 'sdformat_test_files', 'rc': 'SIGINT'}
+[0.899932] (ardupilot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.901087] (-) TimerEvent: {}
+[0.901875] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.916518] (ardupilot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.919460] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.933921] (ardupilot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.936047] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.6.0 (/opt/ros/iron/share/rcl_interfaces/cmake)\n'}
+[0.941923] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.953869] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.960021] (ardupilot_gz_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.961444] (ardupilot_gz_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.962348] (ardupilot_gz_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.963505] (ardupilot_gz_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.965325] (ardupilot_gz_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.965879] (ardupilot_gz_description) StdoutLine: {'line': b'-- Build files have been written to: /home/lasantha/ros2_ws/build/ardupilot_gz_description\n'}
+[0.969384] (ardupilot_gz_description) JobEnded: {'identifier': 'ardupilot_gz_description', 'rc': 'SIGINT'}
+[0.969847] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.987102] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001184] (-) TimerEvent: {}
+[1.012419] (ardupilot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[1.024911] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[1.028004] (ardupilot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[1.051427] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[1.081310] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[1.095727] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[1.101353] (-) TimerEvent: {}
+[1.111498] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[1.115144] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201454] (-) TimerEvent: {}
+[1.203980] (ros_gz_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.228100] (ros_gz_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[1.278845] (ros_gz_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301558] (-) TimerEvent: {}
+[1.369349] (ardupilot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.14.3 (/opt/ros/iron/share/ament_cmake_cppcheck/cmake)\n'}
+[1.372197] (ardupilot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.14.3 (/opt/ros/iron/share/ament_cmake_cpplint/cmake)\n'}
+[1.375043] (ardupilot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.14.3 (/opt/ros/iron/share/ament_cmake_uncrustify/cmake)\n'}
+[1.378343] (ardupilot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[1.401668] (-) TimerEvent: {}
+[1.417457] (ros_gz_sim) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[1.447844] (ros_gz_sim) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:61 (find_package):\n'}
+[1.448067] (ros_gz_sim) StderrLine: {'line': b'  By not providing "Findgz-math7.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.448137] (ros_gz_sim) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "gz-math7",\n'}
+[1.448192] (ros_gz_sim) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[1.448246] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[1.448298] (ros_gz_sim) StderrLine: {'line': b'  Could not find a package configuration file provided by "gz-math7" with any\n'}
+[1.448348] (ros_gz_sim) StderrLine: {'line': b'  of the following names:\n'}
+[1.448394] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[1.448439] (ros_gz_sim) StderrLine: {'line': b'    gz-math7Config.cmake\n'}
+[1.448485] (ros_gz_sim) StderrLine: {'line': b'    gz-math7-config.cmake\n'}
+[1.448532] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[1.448577] (ros_gz_sim) StderrLine: {'line': b'  Add the installation prefix of "gz-math7" to CMAKE_PREFIX_PATH or set\n'}
+[1.448637] (ros_gz_sim) StderrLine: {'line': b'  "gz-math7_DIR" to a directory containing one of the above files.  If\n'}
+[1.448685] (ros_gz_sim) StderrLine: {'line': b'  "gz-math7" provides a separate development package or SDK, be sure it has\n'}
+[1.448741] (ros_gz_sim) StderrLine: {'line': b'  been installed.\n'}
+[1.448793] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[1.448842] (ros_gz_sim) StderrLine: {'line': b'\x1b[0m\n'}
+[1.448891] (ros_gz_sim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.448946] (ros_gz_sim) StdoutLine: {'line': b'See also "/home/lasantha/ros2_ws/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".\n'}
+[1.455327] (ros_gz_sim) JobEnded: {'identifier': 'ros_gz_sim', 'rc': 'SIGINT'}
+[1.501827] (-) TimerEvent: {}
+[1.555537] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.14.3 (/opt/ros/iron/share/ament_cmake_cppcheck/cmake)\n'}
+[1.558154] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.14.3 (/opt/ros/iron/share/ament_cmake_cpplint/cmake)\n'}
+[1.560910] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.14.3 (/opt/ros/iron/share/ament_cmake_uncrustify/cmake)\n'}
+[1.563600] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[1.602001] (-) TimerEvent: {}
+[1.702331] (-) TimerEvent: {}
+[1.761258] (ardupilot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.802429] (-) TimerEvent: {}
+[1.902710] (-) TimerEvent: {}
+[1.905674] (ardupilot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.931699] (ardupilot_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.934305] (ardupilot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[1.952967] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.963226] (ardupilot_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.963372] (ardupilot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.963415] (ardupilot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.963451] (ardupilot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.985034] (ardupilot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.002883] (-) TimerEvent: {}
+[2.043834] (ardupilot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.14.3 (/opt/ros/iron/share/ament_cmake_flake8/cmake)\n'}
+[2.046496] (ardupilot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.14.3 (/opt/ros/iron/share/ament_cmake_pep257/cmake)\n'}
+[2.049743] (ardupilot_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[2.059338] (ardupilot_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.059826] (ardupilot_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.061888] (ardupilot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.086858] (ardupilot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.088518] (ardupilot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/lasantha/ros2_ws/build/ardupilot_msgs\n'}
+[2.095934] (ardupilot_msgs) JobEnded: {'identifier': 'ardupilot_msgs', 'rc': 'SIGINT'}
+[2.102973] (-) TimerEvent: {}
+[2.105752] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.130587] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.132873] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[2.158159] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.158311] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.158362] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.158411] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.179091] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.203098] (-) TimerEvent: {}
+[2.244734] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.14.3 (/opt/ros/iron/share/ament_cmake_flake8/cmake)\n'}
+[2.247547] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.14.3 (/opt/ros/iron/share/ament_cmake_pep257/cmake)\n'}
+[2.252862] (ros_gz_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.301778] (ros_gz_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.303210] (-) TimerEvent: {}
+[2.303547] (ros_gz_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/lasantha/ros2_ws/build/ros_gz_interfaces\n'}
+[2.311290] (ros_gz_interfaces) JobEnded: {'identifier': 'ros_gz_interfaces', 'rc': 'SIGINT'}
+[2.403342] (-) TimerEvent: {}
+[2.479556] (micro_ros_agent) StdoutLine: {'line': b"Branch 'ros2' set up to track remote branch 'ros2' from 'origin'.\n"}
+[2.479828] (micro_ros_agent) StderrLine: {'line': b"Switched to a new branch 'ros2'\n"}
+[2.503510] (-) TimerEvent: {}
+[2.524167] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[2.603723] (-) TimerEvent: {}
+[2.704167] (-) TimerEvent: {}
+[2.804807] (-) TimerEvent: {}
+[2.905578] (-) TimerEvent: {}
+[2.998850] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)\n'}
+[3.005638] (-) TimerEvent: {}
+[3.031535] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[3.066651] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[3.075556] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/lasantha/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[3.105775] (-) TimerEvent: {}
+[3.111209] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.115661] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.169534] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.173970] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.174052] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.174221] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.205968] (-) TimerEvent: {}
+[3.208345] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.212718] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.286149] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.290765] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.290937] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.291241] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.295225] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.306051] (-) TimerEvent: {}
+[3.345918] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.346049] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.396833] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.397529] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.405320] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.406126] (-) TimerEvent: {}
+[3.406922] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[3.407410] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/lasantha/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[3.425857] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[3.471074] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[3.506331] (-) TimerEvent: {}
+[3.524975] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[3.545108] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[3.565204] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[3.584981] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[3.592353] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/lasantha/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[3.595456] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[3.606515] (-) TimerEvent: {}
+[3.617341] (micro_ros_agent) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[3.617529] (micro_ros_agent) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (tinyxml2)\n'}
+[3.617700] (micro_ros_agent) StderrLine: {'line': b'  does not match the name of the calling package (TinyXML2).  This can lead\n'}
+[3.617781] (micro_ros_agent) StderrLine: {'line': b'  to problems in calling code that expects `find_package` result variables\n'}
+[3.617841] (micro_ros_agent) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[3.617887] (micro_ros_agent) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.617931] (micro_ros_agent) StderrLine: {'line': b'  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)\n'}
+[3.617973] (micro_ros_agent) StderrLine: {'line': b'  /opt/ros/iron/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)\n'}
+[3.618015] (micro_ros_agent) StderrLine: {'line': b'  CMakeLists.txt:153 (find_package)\n'}
+[3.618058] (micro_ros_agent) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.618100] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[3.618142] (micro_ros_agent) StdoutLine: {'line': b'-- Found tinyxml2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  \n'}
+[3.659381] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.663744] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.669708] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[3.670156] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/lasantha/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[3.685563] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[3.706728] (-) TimerEvent: {}
+[3.722504] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[3.722727] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[3.722812] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[3.723421] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[3.723541] (micro_ros_agent) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[3.724105] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[3.725387] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[3.727891] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[3.806837] (-) TimerEvent: {}
+[3.907187] (-) TimerEvent: {}
+[4.007512] (-) TimerEvent: {}
+[4.107846] (-) TimerEvent: {}
+[4.208184] (-) TimerEvent: {}
+[4.308522] (-) TimerEvent: {}
+[4.408893] (-) TimerEvent: {}
+[4.509255] (-) TimerEvent: {}
+[4.609772] (-) TimerEvent: {}
+[4.710220] (-) TimerEvent: {}
+[4.810689] (-) TimerEvent: {}
+[4.911155] (-) TimerEvent: {}
+[5.011499] (-) TimerEvent: {}
+[5.029138] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[5.030084] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[5.070706] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[5.111628] (-) TimerEvent: {}
+[5.212022] (-) TimerEvent: {}
+[5.312454] (-) TimerEvent: {}
+[5.412959] (-) TimerEvent: {}
+[5.513504] (-) TimerEvent: {}
+[5.614006] (-) TimerEvent: {}
+[5.714459] (-) TimerEvent: {}
+[5.814938] (-) TimerEvent: {}
+[5.915393] (-) TimerEvent: {}
+[6.015742] (-) TimerEvent: {}
+[6.116104] (-) TimerEvent: {}
+[6.216457] (-) TimerEvent: {}
+[6.316818] (-) TimerEvent: {}
+[6.359072] (micro_ros_agent) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[6.416940] (-) TimerEvent: {}
+[6.517406] (-) TimerEvent: {}
+[6.617854] (-) TimerEvent: {}
+[6.718207] (-) TimerEvent: {}
+[6.818557] (-) TimerEvent: {}
+[6.918924] (-) TimerEvent: {}
+[7.019266] (-) TimerEvent: {}
+[7.119611] (-) TimerEvent: {}
+[7.219965] (-) TimerEvent: {}
+[7.320301] (-) TimerEvent: {}
+[7.420647] (-) TimerEvent: {}
+[7.520980] (-) TimerEvent: {}
+[7.621309] (-) TimerEvent: {}
+[7.721650] (-) TimerEvent: {}
+[7.822009] (-) TimerEvent: {}
+[7.922350] (-) TimerEvent: {}
+[8.022716] (-) TimerEvent: {}
+[8.123067] (-) TimerEvent: {}
+[8.215163] (micro_ros_agent) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[8.223186] (-) TimerEvent: {}
+[8.323546] (-) TimerEvent: {}
+[8.423925] (-) TimerEvent: {}
+[8.524313] (-) TimerEvent: {}
+[8.624905] (-) TimerEvent: {}
+[8.725324] (-) TimerEvent: {}
+[8.825752] (-) TimerEvent: {}
+[8.926123] (-) TimerEvent: {}
+[8.989308] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[9.026239] (-) TimerEvent: {}
+[9.126686] (-) TimerEvent: {}
+[9.216968] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[9.226814] (-) TimerEvent: {}
+[9.327223] (-) TimerEvent: {}
+[9.427662] (-) TimerEvent: {}
+[9.528122] (-) TimerEvent: {}
+[9.628585] (-) TimerEvent: {}
+[9.729141] (-) TimerEvent: {}
+[9.753493] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[9.829272] (-) TimerEvent: {}
+[9.929816] (-) TimerEvent: {}
+[10.030250] (-) TimerEvent: {}
+[10.130579] (-) TimerEvent: {}
+[10.167939] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[10.230722] (-) TimerEvent: {}
+[10.331205] (-) TimerEvent: {}
+[10.349839] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[10.431321] (-) TimerEvent: {}
+[10.531652] (-) TimerEvent: {}
+[10.631998] (-) TimerEvent: {}
+[10.732008] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[10.732313] (-) TimerEvent: {}
+[10.744723] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[10.832449] (-) TimerEvent: {}
+[10.932790] (-) TimerEvent: {}
+[11.033130] (-) TimerEvent: {}
+[11.133478] (-) TimerEvent: {}
+[11.195480] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[11.233606] (-) TimerEvent: {}
+[11.334101] (-) TimerEvent: {}
+[11.434705] (-) TimerEvent: {}
+[11.535158] (-) TimerEvent: {}
+[11.635506] (-) TimerEvent: {}
+[11.735847] (-) TimerEvent: {}
+[11.836177] (-) TimerEvent: {}
+[11.936512] (-) TimerEvent: {}
+[12.036861] (-) TimerEvent: {}
+[12.137205] (-) TimerEvent: {}
+[12.237615] (-) TimerEvent: {}
+[12.337979] (-) TimerEvent: {}
+[12.438304] (-) TimerEvent: {}
+[12.538641] (-) TimerEvent: {}
+[12.568051] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[12.638762] (-) TimerEvent: {}
+[12.670310] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[12.738887] (-) TimerEvent: {}
+[12.839238] (-) TimerEvent: {}
+[12.852535] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[12.939360] (-) TimerEvent: {}
+[13.039707] (-) TimerEvent: {}
+[13.140067] (-) TimerEvent: {}
+[13.240403] (-) TimerEvent: {}
+[13.340760] (-) TimerEvent: {}
+[13.441113] (-) TimerEvent: {}
+[13.541445] (-) TimerEvent: {}
+[13.641930] (-) TimerEvent: {}
+[13.742384] (-) TimerEvent: {}
+[13.842721] (-) TimerEvent: {}
+[13.904265] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[13.942857] (-) TimerEvent: {}
+[14.043188] (-) TimerEvent: {}
+[14.059227] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[14.143316] (-) TimerEvent: {}
+[14.243676] (-) TimerEvent: {}
+[14.344042] (-) TimerEvent: {}
+[14.444398] (-) TimerEvent: {}
+[14.513883] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[14.544520] (-) TimerEvent: {}
+[14.644873] (-) TimerEvent: {}
+[14.745222] (-) TimerEvent: {}
+[14.845556] (-) TimerEvent: {}
+[14.945906] (-) TimerEvent: {}
+[15.046263] (-) TimerEvent: {}
+[15.084439] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[15.146384] (-) TimerEvent: {}
+[15.246727] (-) TimerEvent: {}
+[15.347054] (-) TimerEvent: {}
+[15.447407] (-) TimerEvent: {}
+[15.547793] (-) TimerEvent: {}
+[15.648148] (-) TimerEvent: {}
+[15.748510] (-) TimerEvent: {}
+[15.848882] (-) TimerEvent: {}
+[15.949218] (-) TimerEvent: {}
+[16.049571] (-) TimerEvent: {}
+[16.149911] (-) TimerEvent: {}
+[16.250264] (-) TimerEvent: {}
+[16.350632] (-) TimerEvent: {}
+[16.450987] (-) TimerEvent: {}
+[16.551360] (-) TimerEvent: {}
+[16.651743] (-) TimerEvent: {}
+[16.752098] (-) TimerEvent: {}
+[16.852457] (-) TimerEvent: {}
+[16.952833] (-) TimerEvent: {}
+[17.053182] (-) TimerEvent: {}
+[17.153563] (-) TimerEvent: {}
+[17.248679] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[17.253669] (-) TimerEvent: {}
+[17.354029] (-) TimerEvent: {}
+[17.454408] (-) TimerEvent: {}
+[17.554754] (-) TimerEvent: {}
+[17.655208] (-) TimerEvent: {}
+[17.663767] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[17.755319] (-) TimerEvent: {}
+[17.832182] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[17.855454] (-) TimerEvent: {}
+[17.955858] (-) TimerEvent: {}
+[18.056245] (-) TimerEvent: {}
+[18.132152] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[18.156365] (-) TimerEvent: {}
+[18.256703] (-) TimerEvent: {}
+[18.357033] (-) TimerEvent: {}
+[18.457365] (-) TimerEvent: {}
+[18.557699] (-) TimerEvent: {}
+[18.587832] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[18.657817] (-) TimerEvent: {}
+[18.758163] (-) TimerEvent: {}
+[18.858519] (-) TimerEvent: {}
+[18.958871] (-) TimerEvent: {}
+[19.059234] (-) TimerEvent: {}
+[19.143357] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[19.159338] (-) TimerEvent: {}
+[19.259795] (-) TimerEvent: {}
+[19.360167] (-) TimerEvent: {}
+[19.460555] (-) TimerEvent: {}
+[19.560949] (-) TimerEvent: {}
+[19.661285] (-) TimerEvent: {}
+[19.751088] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[19.761394] (-) TimerEvent: {}
+[19.861733] (-) TimerEvent: {}
+[19.962093] (-) TimerEvent: {}
+[20.043166] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[20.062211] (-) TimerEvent: {}
+[20.162592] (-) TimerEvent: {}
+[20.263007] (-) TimerEvent: {}
+[20.363430] (-) TimerEvent: {}
+[20.463849] (-) TimerEvent: {}
+[20.564254] (-) TimerEvent: {}
+[20.664697] (-) TimerEvent: {}
+[20.765154] (-) TimerEvent: {}
+[20.845273] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[20.865298] (-) TimerEvent: {}
+[20.965750] (-) TimerEvent: {}
+[21.066151] (-) TimerEvent: {}
+[21.166562] (-) TimerEvent: {}
+[21.267024] (-) TimerEvent: {}
+[21.367469] (-) TimerEvent: {}
+[21.467916] (-) TimerEvent: {}
+[21.568370] (-) TimerEvent: {}
+[21.668849] (-) TimerEvent: {}
+[21.715078] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[21.768993] (-) TimerEvent: {}
+[21.869444] (-) TimerEvent: {}
+[21.969902] (-) TimerEvent: {}
+[22.070344] (-) TimerEvent: {}
+[22.170784] (-) TimerEvent: {}
+[22.271251] (-) TimerEvent: {}
+[22.371726] (-) TimerEvent: {}
+[22.472169] (-) TimerEvent: {}
+[22.572625] (-) TimerEvent: {}
+[22.673067] (-) TimerEvent: {}
+[22.692659] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[22.773198] (-) TimerEvent: {}
+[22.775081] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[22.873332] (-) TimerEvent: {}
+[22.959061] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[22.973444] (-) TimerEvent: {}
+[23.073820] (-) TimerEvent: {}
+[23.174215] (-) TimerEvent: {}
+[23.274593] (-) TimerEvent: {}
+[23.374989] (-) TimerEvent: {}
+[23.475390] (-) TimerEvent: {}
+[23.575771] (-) TimerEvent: {}
+[23.676174] (-) TimerEvent: {}
+[23.776596] (-) TimerEvent: {}
+[23.877020] (-) TimerEvent: {}
+[23.977402] (-) TimerEvent: {}
+[24.077806] (-) TimerEvent: {}
+[24.178204] (-) TimerEvent: {}
+[24.278609] (-) TimerEvent: {}
+[24.379014] (-) TimerEvent: {}
+[24.479459] (-) TimerEvent: {}
+[24.579881] (-) TimerEvent: {}
+[24.680321] (-) TimerEvent: {}
+[24.780765] (-) TimerEvent: {}
+[24.881189] (-) TimerEvent: {}
+[24.981613] (-) TimerEvent: {}
+[25.082015] (-) TimerEvent: {}
+[25.182398] (-) TimerEvent: {}
+[25.282795] (-) TimerEvent: {}
+[25.383206] (-) TimerEvent: {}
+[25.483601] (-) TimerEvent: {}
+[25.584007] (-) TimerEvent: {}
+[25.684380] (-) TimerEvent: {}
+[25.784746] (-) TimerEvent: {}
+[25.885131] (-) TimerEvent: {}
+[25.985493] (-) TimerEvent: {}
+[26.085892] (-) TimerEvent: {}
+[26.186271] (-) TimerEvent: {}
+[26.286652] (-) TimerEvent: {}
+[26.387033] (-) TimerEvent: {}
+[26.487398] (-) TimerEvent: {}
+[26.587772] (-) TimerEvent: {}
+[26.688148] (-) TimerEvent: {}
+[26.788526] (-) TimerEvent: {}
+[26.888915] (-) TimerEvent: {}
+[26.989282] (-) TimerEvent: {}
+[27.089641] (-) TimerEvent: {}
+[27.190028] (-) TimerEvent: {}
+[27.290426] (-) TimerEvent: {}
+[27.390806] (-) TimerEvent: {}
+[27.491193] (-) TimerEvent: {}
+[27.591605] (-) TimerEvent: {}
+[27.691989] (-) TimerEvent: {}
+[27.792356] (-) TimerEvent: {}
+[27.892708] (-) TimerEvent: {}
+[27.993097] (-) TimerEvent: {}
+[28.093465] (-) TimerEvent: {}
+[28.193831] (-) TimerEvent: {}
+[28.294183] (-) TimerEvent: {}
+[28.394587] (-) TimerEvent: {}
+[28.494975] (-) TimerEvent: {}
+[28.595353] (-) TimerEvent: {}
+[28.695741] (-) TimerEvent: {}
+[28.796093] (-) TimerEvent: {}
+[28.896433] (-) TimerEvent: {}
+[28.996774] (-) TimerEvent: {}
+[29.097122] (-) TimerEvent: {}
+[29.197476] (-) TimerEvent: {}
+[29.297802] (-) TimerEvent: {}
+[29.398147] (-) TimerEvent: {}
+[29.498480] (-) TimerEvent: {}
+[29.598801] (-) TimerEvent: {}
+[29.699171] (-) TimerEvent: {}
+[29.799515] (-) TimerEvent: {}
+[29.899816] (-) TimerEvent: {}
+[30.000134] (-) TimerEvent: {}
+[30.100462] (-) TimerEvent: {}
+[30.200812] (-) TimerEvent: {}
+[30.210848] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[30.300997] (-) TimerEvent: {}
+[30.401366] (-) TimerEvent: {}
+[30.426646] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[30.447098] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[30.467439] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[30.501536] (-) TimerEvent: {}
+[30.503743] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[30.525263] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[30.574266] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target microxrcedds_agent\x1b[0m\n'}
+[30.601695] (-) TimerEvent: {}
+[30.609559] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[30.627375] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[30.636342] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[30.636495] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1\n'}
+[30.638529] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[30.638707] (micro_ros_agent) StdoutLine: {'line': b'-- Set runtime path of "/home/lasantha/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.1" to ""\n'}
+[30.638765] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[30.638807] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[30.638974] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[30.639028] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[30.639070] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[30.639109] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[30.639148] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[30.639187] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[30.639225] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[30.639262] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[30.639334] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[30.639391] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[30.639438] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[30.639476] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[30.639531] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[30.639569] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[30.639608] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[30.639646] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[30.639682] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[30.639719] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[30.639755] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[30.639806] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[30.639876] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[30.639914] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[30.639952] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[30.639987] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[30.640024] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[30.640062] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[30.640099] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[30.640151] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[30.640217] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[30.640256] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[30.640309] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[30.640345] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[30.640392] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[30.640429] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[30.640466] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[30.640502] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[30.640538] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[30.640592] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[30.640659] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[30.640701] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[30.640735] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[30.640769] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[30.640802] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[30.641114] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[30.641169] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[30.641219] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[30.641263] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[30.641310] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[30.641354] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[30.641395] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[30.641443] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[30.641491] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[30.641541] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[30.641591] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[30.641640] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[30.641690] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[30.641741] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[30.641791] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[30.641858] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[30.641937] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[30.642025] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[30.642067] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[30.642119] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[30.642165] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[30.642210] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[30.642245] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[30.642298] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[30.642334] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[30.642381] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[30.642434] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[30.642470] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[30.642522] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[30.642561] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[30.642615] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[30.642651] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[30.642688] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[30.642736] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[30.642772] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[30.642826] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[30.642864] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[30.642900] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[30.642955] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[30.642991] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[30.643026] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[30.643080] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[30.643117] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[30.643163] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[30.643199] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[30.643252] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[30.643288] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[30.643454] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[30.643503] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[30.643552] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[30.643600] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[30.643649] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[30.643699] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[30.643753] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[30.643790] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[30.643843] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[30.643880] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[30.643928] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[30.643962] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[30.644015] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[30.644051] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[30.644099] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[30.644147] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[30.644196] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[30.644245] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[30.644295] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[30.644345] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[30.644395] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[30.644444] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[30.644493] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[30.644546] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[30.644589] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[30.644649] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[30.644685] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[30.644739] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[30.644778] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[30.644832] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[30.644867] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[30.644938] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[30.645020] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[30.645086] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[30.645149] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[30.645213] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[30.645264] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/lasantha/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[30.659739] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[30.691202] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[30.701832] (-) TimerEvent: {}
+[30.707358] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[30.770379] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[30.788867] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[30.801926] (-) TimerEvent: {}
+[30.807657] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[30.831047] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[30.842228] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/lasantha/ros2_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[30.847333] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[30.902098] (-) TimerEvent: {}
+[30.999889] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[31.002172] (-) TimerEvent: {}
+[31.102396] (-) TimerEvent: {}
+[31.138298] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[31.143199] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[31.202581] (-) TimerEvent: {}
+[31.210963] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[31.211102] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[31.283287] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[31.283498] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[31.288774] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 4.0.1 (/opt/ros/iron/share/rosidl_cmake/cmake)\n'}
+[31.290975] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[31.302741] (-) TimerEvent: {}
+[31.308932] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 3.0.2 (/opt/ros/iron/share/fastrtps_cmake_module/cmake)\n'}
+[31.310892] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 2.0.1 (/opt/ros/iron/share/rmw_dds_common/cmake)\n'}
+[31.341494] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[31.351640] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[31.358466] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[31.370290] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[31.383236] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[31.402899] (-) TimerEvent: {}
+[31.429259] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[31.431428] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[31.433928] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.0.4 (/opt/ros/iron/share/ament_cmake_gtest/cmake)\n'}
+[31.435982] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 1.0.0 (/opt/ros/iron/share/micro_ros_msgs/cmake)\n'}
+[31.495199] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.499880] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[31.500443] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/lasantha/ros2_ws/build/micro_ros_agent\n'}
+[31.503060] (-) TimerEvent: {}
+[31.516465] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[31.553139] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[31.553352] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[31.553415] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[31.554320] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[31.555170] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[31.603181] (-) TimerEvent: {}
+[31.703473] (-) TimerEvent: {}
+[31.803809] (-) TimerEvent: {}
+[31.904246] (-) TimerEvent: {}
+[32.004551] (-) TimerEvent: {}
+[32.104931] (-) TimerEvent: {}
+[32.205288] (-) TimerEvent: {}
+[32.305651] (-) TimerEvent: {}
+[32.406019] (-) TimerEvent: {}
+[32.506392] (-) TimerEvent: {}
+[32.606812] (-) TimerEvent: {}
+[32.707190] (-) TimerEvent: {}
+[32.786595] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid uros::agent::graph_manager::GraphManager::add_datawriter(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataWriterQos&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.786991] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:377:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool rmw_dds_common::GraphCache::add_entity(const rmw_gid_t&, const string&, const string&, const rmw_gid_t&, const rmw_qos_profile_t&, bool)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Migrate to using the version of this function taking a type hash. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.787145] (micro_ros_agent) StderrLine: {'line': b'  377 |     \x1b[01;35m\x1b[KgraphCache_.add_entity(datawriter_gid, topic_name,\x1b[m\x1b[K\n'}
+[32.787251] (micro_ros_agent) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.787348] (micro_ros_agent) StderrLine: {'line': b'  378 | \x1b[01;35m\x1b[K        type_name, participant_gid, qos_profile, false)\x1b[m\x1b[K;\n'}
+[32.787446] (micro_ros_agent) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.787543] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/include/agent/graph_manager/graph_manager.hpp:44\x1b[m\x1b[K,\n'}
+[32.787636] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:18\x1b[m\x1b[K:\n'}
+[32.787728] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rmw_dds_common/rmw_dds_common/graph_cache.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[32.787823] (micro_ros_agent) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kadd_entity\x1b[m\x1b[K(\n'}
+[32.787924] (micro_ros_agent) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.788019] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid uros::agent::graph_manager::GraphManager::add_datareader(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataReaderQos&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.788126] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:414:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbool rmw_dds_common::GraphCache::add_entity(const rmw_gid_t&, const string&, const string&, const rmw_gid_t&, const rmw_qos_profile_t&, bool)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Migrate to using the version of this function taking a type hash. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.788231] (micro_ros_agent) StderrLine: {'line': b'  414 |     \x1b[01;35m\x1b[KgraphCache_.add_entity(datareader_gid, topic_name,\x1b[m\x1b[K\n'}
+[32.788320] (micro_ros_agent) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.788420] (micro_ros_agent) StderrLine: {'line': b'  415 | \x1b[01;35m\x1b[K        type_name, participant_gid, qos_profile, true)\x1b[m\x1b[K;\n'}
+[32.788511] (micro_ros_agent) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.788636] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/include/agent/graph_manager/graph_manager.hpp:44\x1b[m\x1b[K,\n'}
+[32.788735] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:18\x1b[m\x1b[K:\n'}
+[32.788825] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rmw_dds_common/rmw_dds_common/graph_cache.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[32.788929] (micro_ros_agent) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kadd_entity\x1b[m\x1b[K(\n'}
+[32.789022] (micro_ros_agent) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.807324] (-) TimerEvent: {}
+[32.907695] (-) TimerEvent: {}
+[33.008075] (-) TimerEvent: {}
+[33.108450] (-) TimerEvent: {}
+[33.208834] (-) TimerEvent: {}
+[33.309192] (-) TimerEvent: {}
+[33.409554] (-) TimerEvent: {}
+[33.509909] (-) TimerEvent: {}
+[33.610280] (-) TimerEvent: {}
+[33.710646] (-) TimerEvent: {}
+[33.811001] (-) TimerEvent: {}
+[33.911360] (-) TimerEvent: {}
+[34.011721] (-) TimerEvent: {}
+[34.112065] (-) TimerEvent: {}
+[34.212420] (-) TimerEvent: {}
+[34.312771] (-) TimerEvent: {}
+[34.413116] (-) TimerEvent: {}
+[34.513458] (-) TimerEvent: {}
+[34.613801] (-) TimerEvent: {}
+[34.714211] (-) TimerEvent: {}
+[34.814590] (-) TimerEvent: {}
+[34.914993] (-) TimerEvent: {}
+[35.015270] (-) TimerEvent: {}
+[35.083918] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[35.115462] (-) TimerEvent: {}
+[35.215782] (-) TimerEvent: {}
+[35.315881] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[35.316053] (-) TimerEvent: {}
+[35.336293] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[35.355145] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[35.380200] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[35.388151] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 'SIGINT'}
+[35.398705] (ardupilot_sitl) JobSkipped: {'identifier': 'ardupilot_sitl'}
+[35.398781] (ardupilot_sitl_models) JobSkipped: {'identifier': 'ardupilot_sitl_models'}
+[35.398800] (ros_gz_bridge) JobSkipped: {'identifier': 'ros_gz_bridge'}
+[35.398811] (sdformat_urdf) JobSkipped: {'identifier': 'sdformat_urdf'}
+[35.398821] (ardupilot_gz_bringup) JobSkipped: {'identifier': 'ardupilot_gz_bringup'}
+[35.398831] (-) EventReactorShutdown: {}

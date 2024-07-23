@@ -1,0 +1,74 @@
+[0.039s] Invoking command in '/home/lasantha/ros2_ws/build/sdformat_urdf': CMAKE_PREFIX_PATH=/home/lasantha/ros2_ws/install/sdformat_test_files:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/micro_ros_agent:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/install/cpp_pubsub:/home/lasantha/ros2_ws/install/ardupilot_msgs:/home/lasantha/ros2_ws/install/py_2wbot_ctrl:/home/lasantha/ros2_ws/install/py_pubsub:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron PKG_CONFIG_PATH=/home/lasantha/ros2_ws/install/sdformat_test_files/lib/x86_64-linux-gnu/pkgconfig:/home/lasantha/ros2_ws/install/sdformat_test_files/lib/pkgconfig /usr/bin/cmake /home/lasantha/ros2_ws/src/sdformat_urdf/sdformat_urdf -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/sdformat_urdf
+[0.127s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.246s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.356s] -- Detecting C compile features - done
+[0.358s] -- Detecting CXX compiler ABI info
+[0.465s] -- Detecting CXX compiler ABI info - done
+[0.477s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.477s] -- Detecting CXX compile features
+[0.477s] -- Detecting CXX compile features - done
+[0.482s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.852s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.051s] -- Found pluginlib: 5.2.2 (/opt/ros/iron/share/pluginlib/cmake)
+[1.110s] -- Found urdf_parser_plugin: 2.8.2 (/opt/ros/iron/share/urdf_parser_plugin/cmake)
+[1.111s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.190s] -- Compiling against libSDFormat 12
+[1.196s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.315s] -- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.317s] -- Looking for pthread.h
+[1.386s] -- Looking for pthread.h - found
+[1.387s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.488s] -- Found Threads: TRUE  
+[1.507s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.510s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.511s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lasantha/ros2_ws/src/sdformat_urdf/sdformat_urdf/include>;/home/lasantha/ros2_ws/src/sdformat_urdf/sdformat_urdf/test/include
+[1.511s] -- Configured cppcheck exclude dirs and/or files: 
+[1.513s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.513s] -- Configured cpplint exclude dirs and/or files: 
+[1.515s] -- Added test 'lint_cmake' to check CMake code style
+[1.518s] -- Added test 'uncrustify' to check C / C++ code style
+[1.519s] -- Configured uncrustify additional arguments: 
+[1.520s] -- Added test 'xmllint' to check XML markup files
+[1.524s] -- Configuring done
+[1.547s] -- Generating done
+[1.549s] -- Build files have been written to: /home/lasantha/ros2_ws/build/sdformat_urdf
+[1.758s] Invoked command in '/home/lasantha/ros2_ws/build/sdformat_urdf' returned '0': CMAKE_PREFIX_PATH=/home/lasantha/ros2_ws/install/sdformat_test_files:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/micro_ros_agent:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/install/cpp_pubsub:/home/lasantha/ros2_ws/install/ardupilot_msgs:/home/lasantha/ros2_ws/install/py_2wbot_ctrl:/home/lasantha/ros2_ws/install/py_pubsub:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron PKG_CONFIG_PATH=/home/lasantha/ros2_ws/install/sdformat_test_files/lib/x86_64-linux-gnu/pkgconfig:/home/lasantha/ros2_ws/install/sdformat_test_files/lib/pkgconfig /usr/bin/cmake /home/lasantha/ros2_ws/src/sdformat_urdf/sdformat_urdf -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/sdformat_urdf
+[1.759s] Invoking command in '/home/lasantha/ros2_ws/build/sdformat_urdf': CMAKE_PREFIX_PATH=/home/lasantha/ros2_ws/install/sdformat_test_files:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/micro_ros_agent:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/install/cpp_pubsub:/home/lasantha/ros2_ws/install/ardupilot_msgs:/home/lasantha/ros2_ws/install/py_2wbot_ctrl:/home/lasantha/ros2_ws/install/py_pubsub:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron PKG_CONFIG_PATH=/home/lasantha/ros2_ws/install/sdformat_test_files/lib/x86_64-linux-gnu/pkgconfig:/home/lasantha/ros2_ws/install/sdformat_test_files/lib/pkgconfig /usr/bin/cmake --build /home/lasantha/ros2_ws/build/sdformat_urdf -- -j8 -l8
+[1.849s] [  4%] [32mBuilding CXX object CMakeFiles/sdformat_urdf.dir/src/sdformat_urdf.cpp.o[0m
+[1.853s] [  9%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.885s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.958s] [ 18%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.158s] [ 18%] Built target gtest_main
+[4.813s] [ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.914s] [ 22%] Built target gtest
+[5.928s] [ 27%] [32m[1mLinking CXX shared library libsdformat_urdf.so[0m
+[6.154s] [ 27%] Built target sdformat_urdf
+[6.203s] [ 31%] [32mBuilding CXX object CMakeFiles/sdformat_urdf_plugin.dir/src/sdformat_urdf_plugin.cpp.o[0m
+[6.207s] [ 36%] [32mBuilding CXX object CMakeFiles/sdf_graph_tests.dir/test/graph_tests.cpp.o[0m
+[6.220s] [ 40%] [32mBuilding CXX object CMakeFiles/sdf_geometry_tests.dir/test/geometry_tests.cpp.o[0m
+[6.226s] [ 45%] [32mBuilding CXX object CMakeFiles/sdf_joint_tests.dir/test/joint_tests.cpp.o[0m
+[6.249s] [ 50%] [32mBuilding CXX object CMakeFiles/sdf_link_tests.dir/test/link_tests.cpp.o[0m
+[6.269s] [ 54%] [32mBuilding CXX object CMakeFiles/sdf_material_tests.dir/test/material_tests.cpp.o[0m
+[6.334s] [ 59%] [32mBuilding CXX object CMakeFiles/sdf_model_tests.dir/test/model_tests.cpp.o[0m
+[6.350s] [ 63%] [32mBuilding CXX object CMakeFiles/sdf_pose_tests.dir/test/pose_tests.cpp.o[0m
+[13.059s] [ 68%] [32m[1mLinking CXX executable sdf_pose_tests[0m
+[13.554s] [ 68%] Built target sdf_pose_tests
+[13.637s] [ 72%] [32m[1mLinking CXX shared library libsdformat_urdf_plugin.so[0m
+[14.112s] [ 72%] Built target sdformat_urdf_plugin
+[14.494s] [ 77%] [32m[1mLinking CXX executable sdf_graph_tests[0m
+[14.653s] [ 81%] [32m[1mLinking CXX executable sdf_material_tests[0m
+[15.096s] [ 81%] Built target sdf_graph_tests
+[15.195s] [ 81%] Built target sdf_material_tests
+[15.425s] [ 86%] [32m[1mLinking CXX executable sdf_model_tests[0m
+[15.437s] [ 90%] [32m[1mLinking CXX executable sdf_joint_tests[0m
+[15.693s] [ 95%] [32m[1mLinking CXX executable sdf_geometry_tests[0m
+[15.759s] [ 95%] Built target sdf_model_tests
+[15.857s] [100%] [32m[1mLinking CXX executable sdf_link_tests[0m
+[15.889s] [100%] Built target sdf_joint_tests
+[16.059s] [100%] Built target sdf_geometry_tests
+[16.174s] [100%] Built target sdf_link_tests

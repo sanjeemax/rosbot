@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000360] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000552] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000568] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000580] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000591] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000603] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000614] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000624] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000635] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000646] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000657] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000667] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000678] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000690] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000709] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000720] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000731] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000742] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000753] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000764] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000776] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000785] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000795] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000804] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000813] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000822] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000832] (-) JobUnselected: {'identifier': 'py_custom_state_msg'}
+[0.000841] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000850] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000859] (-) JobUnselected: {'identifier': 'py_test_custom'}
+[0.000869] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.000878] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.000888] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000897] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.000906] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.000915] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000925] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.000934] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.000943] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.000952] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.000962] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.000971] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.000980] (-) JobUnselected: {'identifier': 'sdformat_test_files'}
+[0.000989] (-) JobUnselected: {'identifier': 'sdformat_urdf'}
+[0.000999] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.001008] (-) JobUnselected: {'identifier': 'urdf_tutorial_r2d2'}
+[0.001023] (py_2wbot_ctrl) JobQueued: {'identifier': 'py_2wbot_ctrl', 'dependencies': OrderedDict([('more_interfaces', '/home/lasantha/ros2_ws/install/more_interfaces')])}
+[0.001039] (py_2wbot_ctrl) JobStarted: {'identifier': 'py_2wbot_ctrl'}
+[0.099805] (-) TimerEvent: {}
+[0.200146] (-) TimerEvent: {}
+[0.300386] (-) TimerEvent: {}
+[0.400613] (-) TimerEvent: {}
+[0.500835] (-) TimerEvent: {}
+[0.575443] (py_2wbot_ctrl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_2wbot_ctrl', 'build', '--build-base', '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/build', 'install', '--record', '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lasantha/ros2_ws/src/py_2wbot_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lasantha', 'LC_TIME': 'sv_SE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/lasantha/ros2_ws/install/more_interfaces/lib:/home/lasantha/ros2_ws/install/micro_ros_agent/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin', 'HOME': '/home/lasantha', 'OLDPWD': '/home/lasantha/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sv_SE.UTF-8', 'SYSTEMD_EXEC_PID': '2987', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/lasantha/ros2_ws/install', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'lasantha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/lasantha/ros2_ws/install/sdformat_test_files/lib/x86_64-linux-gnu/pkgconfig:/home/lasantha/ros2_ws/install/sdformat_test_files/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lasantha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools', 'SESSION_MANAGER': 'local/mydevice:@/tmp/.ICE-unix/2918,unix/mydevice:/tmp/.ICE-unix/2918', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sv_SE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ed65520b_3e97_4e34_b1e8_deb2ae057691', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sv_SE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.121', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/lasantha/ros2_ws/install/py_srvcli:/home/lasantha/ros2_ws/install/py_test_custom:/home/lasantha/ros2_ws/install/py_pubsub:/home/lasantha/ros2_ws/install/py_custom_state_msg:/home/lasantha/ros2_ws/install/py_2wbot_ctrl:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/more_interfaces:/home/lasantha/ros2_ws/install/micro_ros_agent:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/install/cpp_pubsub:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'sv_SE.UTF-8', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11345', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sv_SE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'sv_SE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/java-1.11.0-openjdk-amd64', 'PWD': '/home/lasantha/ros2_ws/build/py_2wbot_ctrl', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'ANDROID_HOME': '/home/lasantha/android-sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/prefix_override:/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/py_test_custom/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/lasantha/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'sv_SE.UTF-8', 'ANDROID_NDK': '~/Android/Sdk/ndk-bundle', 'LC_PAPER': 'sv_SE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/lasantha/ros2_ws/install/more_interfaces:/home/lasantha/ros2_ws/install/sdformat_test_files:/home/lasantha/ros2_ws/install/my_package:/home/lasantha/ros2_ws/install/micro_ros_agent:/home/lasantha/ros2_ws/install/examples_rclcpp_wait_set:/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_timer:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_service:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_composition:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclcpp_cbg_executor:/home/lasantha/ros2_ws/install/examples_rclcpp_async_client:/home/lasantha/ros2_ws/install/cpp_pubsub'}, 'shell': False}
+[0.600944] (-) TimerEvent: {}
+[0.701158] (-) TimerEvent: {}
+[0.801383] (-) TimerEvent: {}
+[0.804717] (py_2wbot_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[0.805396] (py_2wbot_ctrl) StdoutLine: {'line': b'writing ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/PKG-INFO\n'}
+[0.805567] (py_2wbot_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/dependency_links.txt\n'}
+[0.805668] (py_2wbot_ctrl) StdoutLine: {'line': b'writing entry points to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/entry_points.txt\n'}
+[0.805757] (py_2wbot_ctrl) StdoutLine: {'line': b'writing requirements to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/requires.txt\n'}
+[0.805836] (py_2wbot_ctrl) StdoutLine: {'line': b'writing top-level names to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/top_level.txt\n'}
+[0.807169] (py_2wbot_ctrl) StdoutLine: {'line': b"reading manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'\n"}
+[0.807781] (py_2wbot_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'\n"}
+[0.807847] (py_2wbot_ctrl) StdoutLine: {'line': b'running build\n'}
+[0.807886] (py_2wbot_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[0.807944] (py_2wbot_ctrl) StdoutLine: {'line': b'copying py_2wbot_ctrl/follower_node.py -> /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl\n'}
+[0.808391] (py_2wbot_ctrl) StdoutLine: {'line': b'running install\n'}
+[0.808554] (py_2wbot_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[0.809145] (py_2wbot_ctrl) StdoutLine: {'line': b'copying /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl/follower_node.py -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl\n'}
+[0.809682] (py_2wbot_ctrl) StdoutLine: {'line': b'byte-compiling /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl/follower_node.py to follower_node.cpython-310.pyc\n'}
+[0.811376] (py_2wbot_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[0.811476] (py_2wbot_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.812878] (py_2wbot_ctrl) StdoutLine: {'line': b"removing '/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.813071] (py_2wbot_ctrl) StdoutLine: {'line': b'Copying ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl-0.0.0-py3.10.egg-info\n'}
+[0.813566] (py_2wbot_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[0.830535] (py_2wbot_ctrl) StdoutLine: {'line': b'Installing follower_node script to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/py_2wbot_ctrl\n'}
+[0.830760] (py_2wbot_ctrl) StdoutLine: {'line': b'Installing odom_rd script to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/py_2wbot_ctrl\n'}
+[0.830873] (py_2wbot_ctrl) StdoutLine: {'line': b'Installing pilco_node script to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/py_2wbot_ctrl\n'}
+[0.831001] (py_2wbot_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log'\n"}
+[0.852666] (py_2wbot_ctrl) CommandEnded: {'returncode': 0}
+[0.861029] (py_2wbot_ctrl) JobEnded: {'identifier': 'py_2wbot_ctrl', 'rc': 0}
+[0.861434] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info
+writing ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/dependency_links.txt
+writing entry points to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/entry_points.txt
+writing requirements to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/requires.txt
+writing top-level names to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/top_level.txt
+writing manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build
+creating /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib
+creating /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl
+copying py_2wbot_ctrl/__init__.py -> /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl
+copying py_2wbot_ctrl/publisher_member_function.py -> /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl
+running install
+running install_lib
+creating /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl
+copying /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl/__init__.py -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl
+copying /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl/publisher_member_function.py -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl
+byte-compiling /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+running install_data
+creating /home/lasantha/ros2_ws/install/py_2wbot_ctrl/share/ament_index
+creating /home/lasantha/ros2_ws/install/py_2wbot_ctrl/share/ament_index/resource_index
+creating /home/lasantha/ros2_ws/install/py_2wbot_ctrl/share/ament_index/resource_index/packages
+copying resource/py_2wbot_ctrl -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/share/ament_index/resource_index/packages
+copying package.xml -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/share/py_2wbot_ctrl
+running install_egg_info
+Copying ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl-0.0.0-py3.10.egg-info
+running install_scripts
+Installing talker script to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/py_2wbot_ctrl
+writing list of installed files to '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log'

@@ -1,0 +1,30 @@
+[0.562s] Invoking command in '/home/lasantha/ros2_ws/src/py_2wbot_ctrl': PYTHONPATH=/home/lasantha/ros2_ws/build/py_2wbot_ctrl/prefix_override:/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_2wbot_ctrl build --build-base /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build install --record /home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log --single-version-externally-managed install_data
+[0.784s] running egg_info
+[0.784s] writing ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/PKG-INFO
+[0.784s] writing dependency_links to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/dependency_links.txt
+[0.784s] writing entry points to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/entry_points.txt
+[0.785s] writing requirements to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/requires.txt
+[0.785s] writing top-level names to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/top_level.txt
+[0.786s] reading manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'
+[0.787s] writing manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'
+[0.787s] running build
+[0.787s] running build_py
+[0.787s] copying py_2wbot_ctrl/recorder.py -> /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl
+[0.787s] running install
+[0.787s] running install_lib
+[0.788s] copying /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl/recorder.py -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl
+[0.788s] byte-compiling /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl/recorder.py to recorder.cpython-310.pyc
+[0.789s]   File "/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl/recorder.py", line 30
+[0.789s]     print("vel : {}".format(joint_velocities[i++]))
+[0.789s]                                                 ^
+[0.789s] SyntaxError: invalid syntax
+[0.789s] 
+[0.789s] running install_data
+[0.789s] running install_egg_info
+[0.790s] removing '/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.790s] Copying ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl-0.0.0-py3.10.egg-info
+[0.791s] running install_scripts
+[0.807s] Installing follower_node script to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/py_2wbot_ctrl
+[0.807s] Installing recorder script to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/py_2wbot_ctrl
+[0.807s] writing list of installed files to '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log'
+[0.827s] Invoked command in '/home/lasantha/ros2_ws/src/py_2wbot_ctrl' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/py_2wbot_ctrl/prefix_override:/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_2wbot_ctrl build --build-base /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build install --record /home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log --single-version-externally-managed install_data

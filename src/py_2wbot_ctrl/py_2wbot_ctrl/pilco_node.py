@@ -6,10 +6,8 @@ from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Pose, Twist
 from more_interfaces.srv import PilcoTwist
 from py_2wbot_ctrl.gpr_rosbot import GPR_rosbot
+from py_2wbot_ctrl.svm_rosbot import SVM_rosbot
 from std_srvs.srv import Empty
-
-
-#start_pilco_client
 
 
 class PilcoNode(Node):
@@ -24,7 +22,7 @@ class PilcoNode(Node):
         self.odom_callback,  # Callback function
         1  # QoS profile depth
         )
-        self.gpr_rosbot = GPR_rosbot()
+        self.gpr_rosbot = SVM_rosbot()#GPR_rosbot()
         self.gpr_rosbot.loadModel()
 
         self.pilco_service = self.create_service(PilcoTwist, 'pilco_service', self.pilco_service_callback)
@@ -32,8 +30,6 @@ class PilcoNode(Node):
         while not self.start_pilco_client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
         self.send_pilco_request()
-
-
 
 
     def pilco_service_callback(self,request, response):

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/py_custom_state_msg/py_custom_state_msg.egg-info
+writing ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/dependency_links.txt
+writing entry points to ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/entry_points.txt
+writing requirements to ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/requires.txt
+writing top-level names to ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/top_level.txt
+writing manifest file '../../build/py_custom_state_msg/py_custom_state_msg.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_custom_state_msg/py_custom_state_msg.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_custom_state_msg/py_custom_state_msg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lasantha/ros2_ws/build/py_custom_state_msg/build
+creating /home/lasantha/ros2_ws/build/py_custom_state_msg/build/lib
+creating /home/lasantha/ros2_ws/build/py_custom_state_msg/build/lib/py_custom_state_msg
+copying py_custom_state_msg/__init__.py -> /home/lasantha/ros2_ws/build/py_custom_state_msg/build/lib/py_custom_state_msg
+running install
+running install_lib
+creating /home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages/py_custom_state_msg
+copying /home/lasantha/ros2_ws/build/py_custom_state_msg/build/lib/py_custom_state_msg/__init__.py -> /home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages/py_custom_state_msg
+byte-compiling /home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages/py_custom_state_msg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/lasantha/ros2_ws/install/py_custom_state_msg/share/ament_index
+creating /home/lasantha/ros2_ws/install/py_custom_state_msg/share/ament_index/resource_index
+creating /home/lasantha/ros2_ws/install/py_custom_state_msg/share/ament_index/resource_index/packages
+copying resource/py_custom_state_msg -> /home/lasantha/ros2_ws/install/py_custom_state_msg/share/ament_index/resource_index/packages
+copying package.xml -> /home/lasantha/ros2_ws/install/py_custom_state_msg/share/py_custom_state_msg
+running install_egg_info
+Copying ../../build/py_custom_state_msg/py_custom_state_msg.egg-info to /home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages/py_custom_state_msg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/lasantha/ros2_ws/build/py_custom_state_msg/install.log'

@@ -34,7 +34,7 @@ MIN_AREA = 500
 MIN_AREA_TRACK = 5000
 
 # Robot's speed when following the line
-LINEAR_SPEED = 1.5
+LINEAR_SPEED = 1.45
 
 # Proportional constant to be applied on speed when turning 
 # (Multiplied by the error value)
@@ -344,10 +344,9 @@ def timer_callback():
         print(state)
         np_state = np.array(state)
         np_state_reshaped = np_state.reshape(1, -1)
-        message.linear.x = 1.47
+        message.linear.x = 1.46
         revz = gpr_rosbot.predict(np_state_reshaped)
-        message.angular.z = float(revz) #* -KP
-
+        message.angular.z = float(revz) 
 
     # Check for final countdown
     if finalization_countdown != None:

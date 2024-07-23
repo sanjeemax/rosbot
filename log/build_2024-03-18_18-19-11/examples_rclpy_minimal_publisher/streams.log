@@ -1,0 +1,46 @@
+[0.868s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[1.237s] running develop
+[1.237s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.238s]   warnings.warn(
+[1.406s] Removing /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[1.498s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[1.499s] Invoking command in '/home/lasantha/ros2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data --force
+[1.783s] running egg_info
+[1.784s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.784s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.784s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.784s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.784s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.786s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.786s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.787s] running build
+[1.787s] running build_py
+[1.787s] creating /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build
+[1.787s] creating /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib
+[1.787s] creating /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.787s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.787s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.787s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.787s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[1.787s] running install
+[1.788s] running install_lib
+[1.788s] creating /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.788s] copying /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.788s] copying /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.788s] copying /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.789s] copying /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher
+[1.789s] byte-compiling /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-310.pyc
+[1.790s] byte-compiling /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-310.pyc
+[1.792s] byte-compiling /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.792s] byte-compiling /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-310.pyc
+[1.793s] running install_data
+[1.793s] copying resource/examples_rclpy_minimal_publisher -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[1.793s] copying package.xml -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[1.793s] running install_egg_info
+[1.793s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.18.0-py3.10.egg-info
+[1.794s] running install_scripts
+[1.812s] Installing publisher_local_function script to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.812s] Installing publisher_member_function script to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.813s] Installing publisher_old_school script to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.813s] writing list of installed files to '/home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[1.836s] Invoked command in '/home/lasantha/ros2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/lasantha/ros2_ws/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed install_data --force

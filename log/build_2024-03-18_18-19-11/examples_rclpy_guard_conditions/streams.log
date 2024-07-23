@@ -1,0 +1,38 @@
+[1.131s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build
+[1.495s] running develop
+[1.495s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.495s]   warnings.warn(
+[1.649s] Removing /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples-rclpy-guard-conditions.egg-link (link to .)
+[1.709s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build
+[1.710s] Invoking command in '/home/lasantha/ros2_ws/src/examples/rclpy/guard_conditions': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data --force
+[2.041s] running egg_info
+[2.042s] writing ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/PKG-INFO
+[2.043s] writing dependency_links to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/dependency_links.txt
+[2.043s] writing entry points to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/entry_points.txt
+[2.043s] writing requirements to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/requires.txt
+[2.043s] writing top-level names to ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/top_level.txt
+[2.045s] reading manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.046s] writing manifest file '../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info/SOURCES.txt'
+[2.046s] running build
+[2.046s] running build_py
+[2.047s] creating /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build
+[2.047s] creating /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build/lib
+[2.047s] creating /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[2.047s] copying examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[2.047s] copying examples_rclpy_guard_conditions/__init__.py -> /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions
+[2.047s] running install
+[2.048s] running install_lib
+[2.049s] creating /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[2.049s] copying /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/trigger_guard_condition.py -> /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[2.049s] copying /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build/lib/examples_rclpy_guard_conditions/__init__.py -> /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions
+[2.050s] byte-compiling /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/trigger_guard_condition.py to trigger_guard_condition.cpython-310.pyc
+[2.050s] byte-compiling /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions/__init__.py to __init__.cpython-310.pyc
+[2.050s] running install_data
+[2.051s] copying resource/examples_rclpy_guard_conditions -> /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/share/ament_index/resource_index/packages
+[2.051s] copying package.xml -> /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/share/examples_rclpy_guard_conditions
+[2.051s] running install_egg_info
+[2.053s] Copying ../../../../build/examples_rclpy_guard_conditions/examples_rclpy_guard_conditions.egg-info to /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages/examples_rclpy_guard_conditions-0.18.0-py3.10.egg-info
+[2.054s] running install_scripts
+[2.080s] Installing trigger_guard_condition script to /home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/examples_rclpy_guard_conditions
+[2.080s] writing list of installed files to '/home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/install.log'
+[2.577s] Invoked command in '/home/lasantha/ros2_ws/src/examples/rclpy/guard_conditions' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/examples_rclpy_guard_conditions build --build-base /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/build install --record /home/lasantha/ros2_ws/build/examples_rclpy_guard_conditions/install.log --single-version-externally-managed install_data --force

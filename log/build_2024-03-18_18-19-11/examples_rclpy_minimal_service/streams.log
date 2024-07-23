@@ -1,0 +1,42 @@
+[1.214s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build
+[1.563s] running develop
+[1.563s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.563s]   warnings.warn(
+[1.778s] Removing /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[1.804s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build
+[1.806s] Invoking command in '/home/lasantha/ros2_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed install_data --force
+[2.013s] running egg_info
+[2.014s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[2.014s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[2.014s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[2.014s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[2.014s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[2.016s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.016s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.016s] running build
+[2.016s] running build_py
+[2.016s] creating /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build
+[2.017s] creating /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build/lib
+[2.017s] creating /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.017s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.017s] copying examples_rclpy_minimal_service/__init__.py -> /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.017s] copying examples_rclpy_minimal_service/service.py -> /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.017s] running install
+[2.017s] running install_lib
+[2.018s] creating /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.018s] copying /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.018s] copying /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.018s] copying /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.019s] byte-compiling /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[2.019s] byte-compiling /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[2.019s] byte-compiling /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[2.019s] running install_data
+[2.019s] copying resource/examples_rclpy_minimal_service -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.019s] copying package.xml -> /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[2.019s] running install_egg_info
+[2.021s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.18.0-py3.10.egg-info
+[2.022s] running install_scripts
+[2.036s] Installing service script to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.037s] Installing service_member_function script to /home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.037s] writing list of installed files to '/home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/install.log'
+[2.057s] Invoked command in '/home/lasantha/ros2_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/prefix_override:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/build install --record /home/lasantha/ros2_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed install_data --force

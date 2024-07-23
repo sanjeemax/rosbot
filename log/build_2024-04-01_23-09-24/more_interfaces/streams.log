@@ -1,0 +1,223 @@
+[0.008s] Invoking command in '/home/lasantha/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/install/py_pubsub:/home/lasantha/ros2_ws/install/py_2wbot_ctrl:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/lasantha/ros2_ws/build/more_interfaces -- -j8 -l8
+[0.028s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.149s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.152s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.439s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[0.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.822s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[0.843s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.843s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.843s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.854s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.858s] -- Added test 'lint_cmake' to check CMake code style
+[0.859s] -- Added test 'xmllint' to check XML markup files
+[0.860s] -- Configuring done
+[0.874s] -- Generating done
+[0.876s] -- Build files have been written to: /home/lasantha/ros2_ws/build/more_interfaces
+[0.903s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[0.910s] [  2%] Built target ament_cmake_python_copy_more_interfaces
+[1.047s] [  2%] Built target more_interfaces__rosidl_generator_type_description
+[1.056s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.064s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.117s] running egg_info
+[1.118s] writing more_interfaces.egg-info/PKG-INFO
+[1.118s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[1.118s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[1.119s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.120s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.141s] [  8%] Built target ament_cmake_python_build_more_interfaces_egg
+[1.244s] [  8%] Built target more_interfaces__cpp
+[1.262s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[1.271s] [ 14%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/custom_state__description.c.o[0m
+[1.271s] [ 14%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/custom_state__functions.c.o[0m
+[1.271s] [ 17%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/custom_state__type_support.c.o[0m
+[1.306s] [ 20%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[1.333s] [ 20%] Built target more_interfaces__rosidl_generator_c
+[1.343s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.343s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.343s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.343s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.345s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.347s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.554s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[1.566s] [ 41%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/custom_state__type_support.cpp.o[0m
+[1.567s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.579s] [ 44%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/custom_state__type_support_c.cpp.o[0m
+[1.599s] [ 47%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[1.639s] [ 47%] Built target more_interfaces__rosidl_typesupport_c
+[1.676s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.678s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[1.689s] [ 50%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/custom_state__type_support.cpp.o[0m
+[1.689s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[1.690s] [ 52%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/custom_state__type_support.cpp.o[0m
+[1.699s] [ 55%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/custom_state__type_support.c.o[0m
+[1.711s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.728s] [ 58%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/custom_state__type_support.cpp.o[0m
+[1.732s] [ 61%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.759s] [ 61%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[1.830s] [ 64%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.902s] [ 64%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[1.951s] [ 67%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[1.983s] [ 67%] Built target more_interfaces__rosidl_typesupport_cpp
+[1.989s] [ 70%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.020s] [ 70%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[2.116s] [ 73%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.167s] [ 73%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.185s] [ 73%] Built target more_interfaces
+[2.210s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.427s] [ 76%] Built target more_interfaces__py
+[2.436s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py[0m
+[2.446s] [ 79%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_custom_state_s.c.o[0m
+[2.514s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so[0m
+[2.545s] [ 82%] Built target more_interfaces__rosidl_generator_py
+[2.554s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.554s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[2.554s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.565s] [ 91%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.565s] [ 91%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.565s] [ 91%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.629s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.629s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.631s] [100%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.655s] [100%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[2.655s] [100%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.655s] [100%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.665s] Invoked command in '/home/lasantha/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/install/py_pubsub:/home/lasantha/ros2_ws/install/py_2wbot_ctrl:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/lasantha/ros2_ws/build/more_interfaces -- -j8 -l8
+[2.730s] Invoking command in '/home/lasantha/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/install/py_pubsub:/home/lasantha/ros2_ws/install/py_2wbot_ctrl:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/lasantha/ros2_ws/build/more_interfaces
+[2.738s] -- Install configuration: ""
+[2.738s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[2.738s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/msg/CustomState.json
+[2.738s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[2.738s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[2.738s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.738s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/custom_state.h
+[2.738s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[2.738s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__functions.h
+[2.738s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__type_support.c
+[2.738s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__description.c
+[2.738s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__struct.h
+[2.738s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__type_support.h
+[2.738s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__functions.c
+[2.738s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[2.738s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[2.739s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[2.739s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[2.739s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[2.739s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[2.739s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.739s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[2.739s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__rosidl_typesupport_fastrtps_c.h
+[2.739s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.739s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.739s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[2.739s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[2.739s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.739s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[2.739s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__type_support.c
+[2.739s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__rosidl_typesupport_introspection_c.h
+[2.740s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[2.740s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.740s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[2.740s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[2.740s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[2.740s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[2.740s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/custom_state.hpp
+[2.740s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[2.740s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__struct.hpp
+[2.740s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__builder.hpp
+[2.740s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__traits.hpp
+[2.740s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[2.741s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[2.741s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.741s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[2.741s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[2.741s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.741s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.741s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.741s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[2.741s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[2.741s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[2.741s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__rosidl_typesupport_introspection_cpp.hpp
+[2.741s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/custom_state__type_support.cpp
+[2.741s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.741s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.741s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[2.741s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.741s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[2.742s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[2.742s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.742s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.742s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_custom_state.py
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/__init__.py
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_custom_state_s.c
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/__init__.py
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.742s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[2.773s] Listing '/home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces'...
+[2.773s] Compiling '/home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/__init__.py'...
+[2.773s] Listing '/home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg'...
+[2.773s] Compiling '/home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/__init__.py'...
+[2.773s] Compiling '/home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/msg/_custom_state.py'...
+[2.776s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.776s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.776s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.776s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.776s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.776s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/python3.10/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.777s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[2.777s] -- Set runtime path of "/home/lasantha/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[2.777s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/msg/CustomState.idl
+[2.777s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/msg/CustomState.msg
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[2.777s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[2.777s] -- Installing: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[2.777s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[2.778s] -- Up-to-date: /home/lasantha/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[2.780s] Invoked command in '/home/lasantha/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/install/py_pubsub:/home/lasantha/ros2_ws/install/py_2wbot_ctrl:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --install /home/lasantha/ros2_ws/build/more_interfaces

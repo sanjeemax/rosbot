@@ -1,0 +1,6 @@
+Sorry: IndentationError: expected an indented block after 'else' statement on line 325 (follower_node.py, line 328)
+  File "/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl/pilco_node.py", line 19
+    global state_stack = []
+                       ^
+SyntaxError: invalid syntax
+

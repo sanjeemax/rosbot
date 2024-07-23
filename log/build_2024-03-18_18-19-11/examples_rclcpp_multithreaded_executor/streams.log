@@ -1,0 +1,51 @@
+[0.025s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[0.037s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.213s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.220s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.254s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.263s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.485s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.486s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.625s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.760s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.789s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.854s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.854s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.854s] -- Configured cppcheck include dirs: 
+[0.855s] -- Configured cppcheck exclude dirs and/or files: 
+[0.855s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.855s] -- Configured cpplint exclude dirs and/or files: 
+[0.855s] -- Added test 'lint_cmake' to check CMake code style
+[0.855s] -- Added test 'uncrustify' to check C / C++ code style
+[0.856s] -- Configured uncrustify additional arguments: 
+[0.856s] -- Added test 'xmllint' to check XML markup files
+[0.856s] -- Configuring done
+[0.863s] -- Generating done
+[0.864s] -- Build files have been written to: /home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[1.214s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[1.215s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j8 -l8
+[1.261s] [35m[1mConsolidate compiler generated dependencies of target multithreaded_executor[0m
+[1.322s] [100%] Built target multithreaded_executor
+[1.355s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j8 -l8
+[1.437s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[1.449s] -- Install configuration: ""
+[1.449s] -- Execute custom install script
+[1.449s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[1.450s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[1.450s] -- Symlinking: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[1.460s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[1.461s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[1.461s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[1.461s] -- Up-to-date symlink: /home/lasantha/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[1.466s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/lasantha/ros2_ws/build/examples_rclcpp_multithreaded_executor

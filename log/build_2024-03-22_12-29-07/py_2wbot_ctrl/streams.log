@@ -1,0 +1,25 @@
+[0.430s] Invoking command in '/home/lasantha/ros2_ws/src/py_2wbot_ctrl': PYTHONPATH=/home/lasantha/ros2_ws/build/py_2wbot_ctrl/prefix_override:/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_2wbot_ctrl build --build-base /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build install --record /home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log --single-version-externally-managed install_data
+[0.601s] running egg_info
+[0.602s] writing ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/PKG-INFO
+[0.602s] writing dependency_links to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/dependency_links.txt
+[0.602s] writing entry points to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/entry_points.txt
+[0.602s] writing requirements to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/requires.txt
+[0.602s] writing top-level names to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/top_level.txt
+[0.603s] reading manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'
+[0.604s] writing manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'
+[0.604s] running build
+[0.604s] running build_py
+[0.604s] copying py_2wbot_ctrl/publisher_member_function.py -> /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl
+[0.604s] running install
+[0.604s] running install_lib
+[0.605s] copying /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl/publisher_member_function.py -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl
+[0.605s] byte-compiling /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.605s] running install_data
+[0.606s] copying package.xml -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/share/py_2wbot_ctrl
+[0.606s] running install_egg_info
+[0.607s] removing '/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl-0.0.0-py3.10.egg-info' (and everything under it)
+[0.607s] Copying ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl-0.0.0-py3.10.egg-info
+[0.607s] running install_scripts
+[0.620s] Installing controller script to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/py_2wbot_ctrl
+[0.620s] writing list of installed files to '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log'
+[0.635s] Invoked command in '/home/lasantha/ros2_ws/src/py_2wbot_ctrl' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/py_2wbot_ctrl/prefix_override:/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_2wbot_ctrl build --build-base /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build install --record /home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log --single-version-externally-managed install_data

@@ -1,0 +1,33 @@
+[0.557s] Invoking command in '/home/lasantha/ros2_ws/src/py_custom_state_msg': PYTHONPATH=/home/lasantha/ros2_ws/build/py_custom_state_msg/prefix_override:/home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_custom_state_msg build --build-base /home/lasantha/ros2_ws/build/py_custom_state_msg/build install --record /home/lasantha/ros2_ws/build/py_custom_state_msg/install.log --single-version-externally-managed install_data
+[0.784s] running egg_info
+[0.784s] creating ../../build/py_custom_state_msg/py_custom_state_msg.egg-info
+[0.784s] writing ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/PKG-INFO
+[0.785s] writing dependency_links to ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/dependency_links.txt
+[0.785s] writing entry points to ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/entry_points.txt
+[0.785s] writing requirements to ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/requires.txt
+[0.785s] writing top-level names to ../../build/py_custom_state_msg/py_custom_state_msg.egg-info/top_level.txt
+[0.785s] writing manifest file '../../build/py_custom_state_msg/py_custom_state_msg.egg-info/SOURCES.txt'
+[0.786s] reading manifest file '../../build/py_custom_state_msg/py_custom_state_msg.egg-info/SOURCES.txt'
+[0.787s] writing manifest file '../../build/py_custom_state_msg/py_custom_state_msg.egg-info/SOURCES.txt'
+[0.787s] running build
+[0.787s] running build_py
+[0.787s] creating /home/lasantha/ros2_ws/build/py_custom_state_msg/build
+[0.787s] creating /home/lasantha/ros2_ws/build/py_custom_state_msg/build/lib
+[0.787s] creating /home/lasantha/ros2_ws/build/py_custom_state_msg/build/lib/py_custom_state_msg
+[0.787s] copying py_custom_state_msg/__init__.py -> /home/lasantha/ros2_ws/build/py_custom_state_msg/build/lib/py_custom_state_msg
+[0.787s] running install
+[0.787s] running install_lib
+[0.788s] creating /home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages/py_custom_state_msg
+[0.788s] copying /home/lasantha/ros2_ws/build/py_custom_state_msg/build/lib/py_custom_state_msg/__init__.py -> /home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages/py_custom_state_msg
+[0.789s] byte-compiling /home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages/py_custom_state_msg/__init__.py to __init__.cpython-310.pyc
+[0.789s] running install_data
+[0.789s] creating /home/lasantha/ros2_ws/install/py_custom_state_msg/share/ament_index
+[0.789s] creating /home/lasantha/ros2_ws/install/py_custom_state_msg/share/ament_index/resource_index
+[0.789s] creating /home/lasantha/ros2_ws/install/py_custom_state_msg/share/ament_index/resource_index/packages
+[0.789s] copying resource/py_custom_state_msg -> /home/lasantha/ros2_ws/install/py_custom_state_msg/share/ament_index/resource_index/packages
+[0.789s] copying package.xml -> /home/lasantha/ros2_ws/install/py_custom_state_msg/share/py_custom_state_msg
+[0.789s] running install_egg_info
+[0.790s] Copying ../../build/py_custom_state_msg/py_custom_state_msg.egg-info to /home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages/py_custom_state_msg-0.0.0-py3.10.egg-info
+[0.791s] running install_scripts
+[0.807s] writing list of installed files to '/home/lasantha/ros2_ws/build/py_custom_state_msg/install.log'
+[0.830s] Invoked command in '/home/lasantha/ros2_ws/src/py_custom_state_msg' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/py_custom_state_msg/prefix_override:/home/lasantha/ros2_ws/install/py_custom_state_msg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_custom_state_msg build --build-base /home/lasantha/ros2_ws/build/py_custom_state_msg/build install --record /home/lasantha/ros2_ws/build/py_custom_state_msg/install.log --single-version-externally-managed install_data

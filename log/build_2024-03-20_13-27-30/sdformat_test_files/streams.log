@@ -1,0 +1,18 @@
+[0.025s] Invoking command in '/home/lasantha/ros2_ws/build/sdformat_test_files': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/sdformat_urdf/sdformat_test_files -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/sdformat_test_files
+[0.827s] -- The C compiler identification is GNU 11.4.0
+[0.827s] -- The CXX compiler identification is GNU 11.4.0
+[0.828s] -- Detecting C compiler ABI info
+[0.828s] -- Detecting C compiler ABI info - done
+[0.828s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.828s] -- Detecting C compile features
+[0.828s] -- Detecting C compile features - done
+[0.828s] -- Detecting CXX compiler ABI info
+[0.828s] -- Detecting CXX compiler ABI info - done
+[0.828s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.828s] -- Detecting CXX compile features
+[0.828s] -- Detecting CXX compile features - done
+[0.828s] -- Configuring done
+[0.828s] -- Generating done
+[0.828s] -- Build files have been written to: /home/lasantha/ros2_ws/build/sdformat_test_files
+[0.831s] Invoked command in '/home/lasantha/ros2_ws/build/sdformat_test_files' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/sdformat_urdf/sdformat_test_files -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/sdformat_test_files
+[0.833s] Invoking command in '/home/lasantha/ros2_ws/build/sdformat_test_files': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake --build /home/lasantha/ros2_ws/build/sdformat_test_files -- -j8 -l8

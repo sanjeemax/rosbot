@@ -1,0 +1,22 @@
+[0.025s] Invoking command in '/home/lasantha/ros2_ws/build/ardupilot_gz_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/ardupilot_gz/ardupilot_gz_description -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ardupilot_gz_description
+[0.093s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.171s] -- Detecting C compiler ABI info
+[0.256s] -- Detecting C compiler ABI info - done
+[0.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.272s] -- Detecting C compile features
+[0.273s] -- Detecting C compile features - done
+[0.277s] -- Detecting CXX compiler ABI info
+[0.375s] -- Detecting CXX compiler ABI info - done
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.387s] -- Detecting CXX compile features
+[0.389s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.699s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.838s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.947s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.948s] -- Added test 'lint_cmake' to check CMake code style
+[0.949s] -- Added test 'xmllint' to check XML markup files
+[0.950s] -- Configuring done
+[0.952s] -- Generating done
+[0.953s] -- Build files have been written to: /home/lasantha/ros2_ws/build/ardupilot_gz_description

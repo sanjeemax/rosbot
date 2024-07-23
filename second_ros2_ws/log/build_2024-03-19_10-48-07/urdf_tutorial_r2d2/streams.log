@@ -1,0 +1,21 @@
+[0.443s] Invoking command in '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2': PYTHONPATH=/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data
+[0.635s] running develop
+[0.635s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.636s]   warnings.warn(
+[0.766s] running egg_info
+[0.766s] writing urdf_tutorial_r2d2.egg-info/PKG-INFO
+[0.766s] writing dependency_links to urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[0.766s] writing entry points to urdf_tutorial_r2d2.egg-info/entry_points.txt
+[0.766s] writing requirements to urdf_tutorial_r2d2.egg-info/requires.txt
+[0.766s] writing top-level names to urdf_tutorial_r2d2.egg-info/top_level.txt
+[0.767s] reading manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[0.768s] writing manifest file 'urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[0.769s] running build_ext
+[0.769s] Creating /home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf-tutorial-r2d2.egg-link (link to .)
+[0.769s] Installing state_publisher script to /home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[0.770s] 
+[0.770s] Installed /home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2
+[0.770s] running symlink_data
+[0.770s] symbolically linking /home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2/urdf/r2d2.rviz -> /home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[0.770s] symbolically linking /home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2/urdf/r2d2.urdf.xml -> /home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[0.788s] Invoked command in '/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2/prefix_override:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/lasantha/ros2_ws/second_ros2_ws/build/urdf_tutorial_r2d2/build --no-deps symlink_data

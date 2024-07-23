@@ -1,0 +1,24 @@
+Built target ament_cmake_python_copy_ardupilot_sitl
+[32m[0mSetting top to                           :[0m [0m[32m[32m/home/lasantha/ros2_ws/src/ardupilot[0m [0m
+[32m[0mSetting out to                           :[0m [0m[32m[32m/home/lasantha/ros2_ws/src/ardupilot/build[0m [0m
+[32m[0mAutoconfiguration                        :[0m [0m[32m[32menabled[0m [0m
+[32m[0mChecking for program 'python'            :[0m [0m[32m[32m/usr/bin/python3[0m [0m
+running egg_info
+writing ardupilot_sitl.egg-info/PKG-INFO
+writing dependency_links to ardupilot_sitl.egg-info/dependency_links.txt
+writing top-level names to ardupilot_sitl.egg-info/top_level.txt
+reading manifest file 'ardupilot_sitl.egg-info/SOURCES.txt'
+writing manifest file 'ardupilot_sitl.egg-info/SOURCES.txt'
+[32m[0mChecking for python version >= 3.6.9     :[0m [0m[32m[32m3.10.12[0m [0m
+[32m[0mSetting board to                         :[0m [0m[32m[32msitl[0m [0m
+[32m[0mUsing toolchain                          :[0m [0m[32m[32mnative[0m [0m
+[32m[0mChecking for 'g++' (C++ compiler)        :[0m [0mBuilt target ament_cmake_python_build_ardupilot_sitl_egg
+[32m[32m/usr/bin/g++[0m [0m
+[32m[0mChecking for 'gcc' (C compiler)          :[0m [0m[32m[32m/usr/bin/gcc[0m [0m
+[32m[0mChecking for c flags '-MMD'              :[0m [0m[32m[32myes[0m [0m
+[32m[0mChecking for cxx flags '-MMD'            :[0m [0m[32m[32myes[0m [0m
+[32m[0mCXX Compiler                             :[0m [0m[32m[32mg++ 11.4.0[0m [0m
+[32m[0mChecking for need to link with librt     :[0m [0m[32m[32mnot necessary[0m [0m
+[32m[0mChecking for feenableexcept              :[0m [0m[32m[32myes[0m [0m
+[32m[0mEnabling -Werror                         :[0m [0m[32m[32myes[0m [0m
+[32m[0mChecking for program 'microxrceddsgen'   :[0m [0m[32m[33mnot found[0m [0m

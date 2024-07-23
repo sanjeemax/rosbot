@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (-) JobUnselected: {'identifier': 'ardupilot_dds_tests'}
+[0.000152] (-) JobUnselected: {'identifier': 'ardupilot_msgs'}
+[0.000164] (-) JobUnselected: {'identifier': 'ardupilot_sitl'}
+[0.000174] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000183] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000193] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000202] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000211] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000221] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000231] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000242] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000251] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000260] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000270] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000279] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000288] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000297] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000307] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000316] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000326] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000335] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000345] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000353] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000361] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000370] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000378] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000386] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000395] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000403] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000412] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.000420] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.000429] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.000437] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.000445] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.000453] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.000462] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.000470] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.000479] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.000487] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.000495] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.000503] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.000512] (-) JobUnselected: {'identifier': 'sdformat_test_files'}
+[0.000520] (-) JobUnselected: {'identifier': 'sdformat_urdf'}
+[0.000529] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.000537] (-) JobUnselected: {'identifier': 'urdf_tutorial_r2d2'}
+[0.000546] (py_2wbot_ctrl) JobQueued: {'identifier': 'py_2wbot_ctrl', 'dependencies': OrderedDict()}
+[0.000557] (py_2wbot_ctrl) JobStarted: {'identifier': 'py_2wbot_ctrl'}
+[0.099588] (-) TimerEvent: {}
+[0.199912] (-) TimerEvent: {}
+[0.300190] (-) TimerEvent: {}
+[0.400498] (-) TimerEvent: {}
+[0.428483] (py_2wbot_ctrl) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_2wbot_ctrl', 'build', '--build-base', '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/build', 'install', '--record', '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lasantha/ros2_ws/src/py_2wbot_ctrl', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lasantha', 'LC_TIME': 'sv_SE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib::/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/nvidi:/home/lasantha/.mujoco/mujoco210/bin:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/lasantha', 'OLDPWD': '/home/lasantha/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sv_SE.UTF-8', 'SYSTEMD_EXEC_PID': '6713', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'lasantha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lasantha', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/iron/bin:/home/lasantha/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/lasantha/.local/share/JetBrains/Toolbox/scripts:/home/lasantha/.local/bin:/home/lasantha/android-sdk/tools:/home/lasantha/android-sdk/platform-tools', 'SESSION_MANAGER': 'local/mydevice:@/tmp/.ICE-unix/2909,unix/mydevice:/tmp/.ICE-unix/2909', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sv_SE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/030d99cc_fdc1_4ac0_b4ef_0782bd347dd6', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sv_SE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.121', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'sv_SE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sv_SE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:', 'LC_IDENTIFICATION': 'sv_SE.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JAVA_HOME': '/usr/lib/jvm/java-1.11.0-openjdk-amd64', 'PWD': '/home/lasantha/ros2_ws/build/py_2wbot_ctrl', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'ANDROID_HOME': '/home/lasantha/android-sdk', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/prefix_override:/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'sv_SE.UTF-8', 'ANDROID_NDK': '~/Android/Sdk/ndk-bundle', 'LC_PAPER': 'sv_SE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.500605] (-) TimerEvent: {}
+[0.600887] (-) TimerEvent: {}
+[0.601370] (py_2wbot_ctrl) StdoutLine: {'line': b'running egg_info\n'}
+[0.602007] (py_2wbot_ctrl) StdoutLine: {'line': b'writing ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/PKG-INFO\n'}
+[0.602166] (py_2wbot_ctrl) StdoutLine: {'line': b'writing dependency_links to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/dependency_links.txt\n'}
+[0.602284] (py_2wbot_ctrl) StdoutLine: {'line': b'writing entry points to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/entry_points.txt\n'}
+[0.602400] (py_2wbot_ctrl) StdoutLine: {'line': b'writing requirements to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/requires.txt\n'}
+[0.602466] (py_2wbot_ctrl) StdoutLine: {'line': b'writing top-level names to ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/top_level.txt\n'}
+[0.603615] (py_2wbot_ctrl) StdoutLine: {'line': b"reading manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'\n"}
+[0.604164] (py_2wbot_ctrl) StdoutLine: {'line': b"writing manifest file '../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info/SOURCES.txt'\n"}
+[0.604270] (py_2wbot_ctrl) StdoutLine: {'line': b'running build\n'}
+[0.604328] (py_2wbot_ctrl) StdoutLine: {'line': b'running build_py\n'}
+[0.604437] (py_2wbot_ctrl) StdoutLine: {'line': b'copying py_2wbot_ctrl/publisher_member_function.py -> /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl\n'}
+[0.604568] (py_2wbot_ctrl) StdoutLine: {'line': b'running install\n'}
+[0.604758] (py_2wbot_ctrl) StdoutLine: {'line': b'running install_lib\n'}
+[0.605310] (py_2wbot_ctrl) StdoutLine: {'line': b'copying /home/lasantha/ros2_ws/build/py_2wbot_ctrl/build/lib/py_2wbot_ctrl/publisher_member_function.py -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl\n'}
+[0.605540] (py_2wbot_ctrl) StdoutLine: {'line': b'byte-compiling /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[0.605974] (py_2wbot_ctrl) StdoutLine: {'line': b'running install_data\n'}
+[0.606076] (py_2wbot_ctrl) StdoutLine: {'line': b'copying package.xml -> /home/lasantha/ros2_ws/install/py_2wbot_ctrl/share/py_2wbot_ctrl\n'}
+[0.606167] (py_2wbot_ctrl) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.607129] (py_2wbot_ctrl) StdoutLine: {'line': b"removing '/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.607266] (py_2wbot_ctrl) StdoutLine: {'line': b'Copying ../../build/py_2wbot_ctrl/py_2wbot_ctrl.egg-info to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl-0.0.0-py3.10.egg-info\n'}
+[0.607706] (py_2wbot_ctrl) StdoutLine: {'line': b'running install_scripts\n'}
+[0.620414] (py_2wbot_ctrl) StdoutLine: {'line': b'Installing controller script to /home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/py_2wbot_ctrl\n'}
+[0.620608] (py_2wbot_ctrl) StdoutLine: {'line': b"writing list of installed files to '/home/lasantha/ros2_ws/build/py_2wbot_ctrl/install.log'\n"}
+[0.635768] (py_2wbot_ctrl) CommandEnded: {'returncode': 0}
+[0.642857] (py_2wbot_ctrl) JobEnded: {'identifier': 'py_2wbot_ctrl', 'rc': 0}
+[0.643145] (-) EventReactorShutdown: {}

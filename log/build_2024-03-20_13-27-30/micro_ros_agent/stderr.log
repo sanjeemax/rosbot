@@ -1,0 +1,36 @@
+Cloning into 'xrceagent'...
+Switched to a new branch 'ros2'
+HEAD is now at c25243c Enable Domain Override on Reference and XML Participant (#351)
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (tinyxml2)
+  does not match the name of the calling package (TinyXML2).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/FindTinyXML2.cmake:40 (find_package_handle_standard_args)
+  /opt/ros/iron/share/fastrtps/cmake/fastrtps-config.cmake:51 (find_package)
+  CMakeLists.txt:153 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In member function ‘[01m[Kvoid uros::agent::graph_manager::GraphManager::add_datawriter(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataWriterQos&)[m[K’:
+[01m[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:377:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool rmw_dds_common::GraphCache::add_entity(const rmw_gid_t&, const string&, const string&, const rmw_gid_t&, const rmw_qos_profile_t&, bool)[m[K’ is deprecated: Migrate to using the version of this function taking a type hash. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  377 |     [01;35m[KgraphCache_.add_entity(datawriter_gid, topic_name,[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  378 | [01;35m[K        type_name, participant_gid, qos_profile, false)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/include/agent/graph_manager/graph_manager.hpp:44[m[K,
+                 from [01m[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:18[m[K:
+[01m[K/opt/ros/iron/include/rmw_dds_common/rmw_dds_common/graph_cache.hpp:184:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  184 |   [01;36m[Kadd_entity[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In member function ‘[01m[Kvoid uros::agent::graph_manager::GraphManager::add_datareader(const eprosima::fastrtps::rtps::GUID_t&, const string&, const string&, const eprosima::fastrtps::rtps::GUID_t&, const eprosima::fastdds::dds::DataReaderQos&)[m[K’:
+[01m[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:414:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool rmw_dds_common::GraphCache::add_entity(const rmw_gid_t&, const string&, const string&, const rmw_gid_t&, const rmw_qos_profile_t&, bool)[m[K’ is deprecated: Migrate to using the version of this function taking a type hash. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+  414 |     [01;35m[KgraphCache_.add_entity(datareader_gid, topic_name,[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  415 | [01;35m[K        type_name, participant_gid, qos_profile, true)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/include/agent/graph_manager/graph_manager.hpp:44[m[K,
+                 from [01m[K/home/lasantha/ros2_ws/src/micro_ros_agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:18[m[K:
+[01m[K/opt/ros/iron/include/rmw_dds_common/rmw_dds_common/graph_cache.hpp:184:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  184 |   [01;36m[Kadd_entity[m[K(
+      |   [01;36m[K^~~~~~~~~~[m[K

@@ -1,0 +1,35 @@
+[0.024s] Invoking command in '/home/lasantha/ros2_ws/build/ardupilot_gz_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/ardupilot_gz/ardupilot_gz_gazebo -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ardupilot_gz_gazebo
+[0.090s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.172s] -- Detecting C compiler ABI info
+[0.265s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.277s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.279s] -- Detecting CXX compiler ABI info
+[0.380s] -- Detecting CXX compiler ABI info - done
+[0.391s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.391s] -- Detecting CXX compile features
+[0.392s] -- Detecting CXX compile features - done
+[0.397s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.681s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.831s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.832s]   By not providing "Findgz-cmake3.cmake" in CMAKE_MODULE_PATH this project
+[0.832s]   has asked CMake to find a package configuration file provided by
+[0.832s]   "gz-cmake3", but CMake did not find one.
+[0.832s] 
+[0.832s]   Could not find a package configuration file provided by "gz-cmake3" with
+[0.832s]   any of the following names:
+[0.832s] 
+[0.832s]     gz-cmake3Config.cmake
+[0.832s]     gz-cmake3-config.cmake
+[0.832s] 
+[0.832s]   Add the installation prefix of "gz-cmake3" to CMAKE_PREFIX_PATH or set
+[0.832s]   "gz-cmake3_DIR" to a directory containing one of the above files.  If
+[0.832s]   "gz-cmake3" provides a separate development package or SDK, be sure it has
+[0.833s]   been installed.
+[0.833s] 
+[0.833s] [0m
+[0.833s] -- Configuring incomplete, errors occurred!
+[0.833s] See also "/home/lasantha/ros2_ws/build/ardupilot_gz_gazebo/CMakeFiles/CMakeOutput.log".
+[0.838s] Invoked command in '/home/lasantha/ros2_ws/build/ardupilot_gz_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/ardupilot_gz/ardupilot_gz_gazebo -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ardupilot_gz_gazebo

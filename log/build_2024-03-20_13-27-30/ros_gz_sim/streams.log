@@ -1,0 +1,45 @@
+[0.020s] Invoking command in '/home/lasantha/ros2_ws/build/ros_gz_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lasantha/ros2_ws/second_ros2_ws/install/urdf_tutorial_r2d2:/home/lasantha/ros2_ws/install/launch_testing_examples:/home/lasantha/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_service:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_publisher:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_client:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_server:/home/lasantha/ros2_ws/install/examples_rclpy_minimal_action_client:/home/lasantha/ros2_ws/install/examples_rclpy_guard_conditions:/home/lasantha/ros2_ws/install/examples_rclpy_executors:/opt/ros/iron /usr/bin/cmake /home/lasantha/ros2_ws/src/ros_gz/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/ros_gz_sim
+[0.433s] -- The C compiler identification is GNU 11.4.0
+[0.434s] -- The CXX compiler identification is GNU 11.4.0
+[0.434s] -- Detecting C compiler ABI info
+[0.435s] -- Detecting C compiler ABI info - done
+[0.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.435s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.435s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.435s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.435s] -- Detecting CXX compile features
+[0.435s] -- Detecting CXX compile features - done
+[0.435s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.702s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.848s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.920s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.931s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.947s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.965s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.089s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.093s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[1.182s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.206s] -- Found FastRTPS: /opt/ros/iron/include  
+[1.256s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.395s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.426s] [31mCMake Error at CMakeLists.txt:61 (find_package):
+[1.426s]   By not providing "Findgz-math7.cmake" in CMAKE_MODULE_PATH this project has
+[1.426s]   asked CMake to find a package configuration file provided by "gz-math7",
+[1.426s]   but CMake did not find one.
+[1.426s] 
+[1.426s]   Could not find a package configuration file provided by "gz-math7" with any
+[1.426s]   of the following names:
+[1.426s] 
+[1.426s]     gz-math7Config.cmake
+[1.426s]     gz-math7-config.cmake
+[1.426s] 
+[1.426s]   Add the installation prefix of "gz-math7" to CMAKE_PREFIX_PATH or set
+[1.426s]   "gz-math7_DIR" to a directory containing one of the above files.  If
+[1.426s]   "gz-math7" provides a separate development package or SDK, be sure it has
+[1.426s]   been installed.
+[1.426s] 
+[1.426s] [0m
+[1.426s] -- Configuring incomplete, errors occurred!
+[1.426s] See also "/home/lasantha/ros2_ws/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".

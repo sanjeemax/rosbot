@@ -1,0 +1,33 @@
+[0.575s] Invoking command in '/home/lasantha/ros2_ws/src/py_srvcli': PYTHONPATH=/home/lasantha/ros2_ws/build/py_srvcli/prefix_override:/home/lasantha/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/lasantha/ros2_ws/build/py_srvcli/build install --record /home/lasantha/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data
+[0.811s] running egg_info
+[0.811s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[0.811s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.811s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.811s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.812s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.812s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.812s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.813s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.813s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.813s] running build
+[0.814s] running build_py
+[0.814s] creating /home/lasantha/ros2_ws/build/py_srvcli/build
+[0.814s] creating /home/lasantha/ros2_ws/build/py_srvcli/build/lib
+[0.814s] creating /home/lasantha/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.814s] copying py_srvcli/__init__.py -> /home/lasantha/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[0.814s] running install
+[0.814s] running install_lib
+[0.815s] creating /home/lasantha/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.815s] copying /home/lasantha/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/lasantha/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[0.815s] byte-compiling /home/lasantha/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[0.815s] running install_data
+[0.815s] creating /home/lasantha/ros2_ws/install/py_srvcli/share/ament_index
+[0.815s] creating /home/lasantha/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[0.816s] creating /home/lasantha/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.816s] copying resource/py_srvcli -> /home/lasantha/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[0.816s] copying package.xml -> /home/lasantha/ros2_ws/install/py_srvcli/share/py_srvcli
+[0.816s] running install_egg_info
+[0.817s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/lasantha/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[0.818s] running install_scripts
+[0.834s] writing list of installed files to '/home/lasantha/ros2_ws/build/py_srvcli/install.log'
+[0.854s] Invoked command in '/home/lasantha/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/lasantha/ros2_ws/build/py_srvcli/prefix_override:/home/lasantha/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/lasantha/ros2_ws/build/py_srvcli/build install --record /home/lasantha/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed install_data

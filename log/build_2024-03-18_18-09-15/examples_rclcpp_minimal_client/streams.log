@@ -1,0 +1,33 @@
+[0.015s] Invoking command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_client': /usr/bin/cmake /home/lasantha/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.152s] -- The CXX compiler identification is GNU 11.4.0
+[0.160s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.251s] -- Detecting C compile features - done
+[0.255s] -- Detecting CXX compiler ABI info
+[0.341s] -- Detecting CXX compiler ABI info - done
+[0.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.352s] -- Detecting CXX compile features
+[0.352s] -- Detecting CXX compile features - done
+[0.364s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.364s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.364s]   has asked CMake to find a package configuration file provided by
+[0.364s]   "ament_cmake", but CMake did not find one.
+[0.364s] 
+[0.364s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.364s]   any of the following names:
+[0.364s] 
+[0.364s]     ament_cmakeConfig.cmake
+[0.364s]     ament_cmake-config.cmake
+[0.364s] 
+[0.364s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.364s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.364s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.365s]   has been installed.
+[0.365s] 
+[0.365s] [0m
+[0.365s] -- Configuring incomplete, errors occurred!
+[0.365s] See also "/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_client/CMakeFiles/CMakeOutput.log".
+[0.369s] Invoked command in '/home/lasantha/ros2_ws/build/examples_rclcpp_minimal_client' returned '1': /usr/bin/cmake /home/lasantha/ros2_ws/src/examples/rclcpp/services/minimal_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lasantha/ros2_ws/install/examples_rclcpp_minimal_client

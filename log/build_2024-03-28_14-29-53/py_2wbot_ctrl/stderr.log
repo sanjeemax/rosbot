@@ -1,0 +1,5 @@
+  File "/home/lasantha/ros2_ws/install/py_2wbot_ctrl/lib/python3.10/site-packages/py_2wbot_ctrl/recorder.py", line 30
+    print("vel : {}".format(joint_velocities[i++]))
+                                                ^
+SyntaxError: invalid syntax
+

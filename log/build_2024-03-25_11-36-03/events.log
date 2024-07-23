@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000398] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000419] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000430] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000441] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000451] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000460] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000469] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000478] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000495] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000504] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000912] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000934] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000945] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000954] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000963] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000972] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000982] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000991] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001000] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001010] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001020] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001029] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001038] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001047] (-) JobUnselected: {'identifier': 'line_follower'}
+[0.001057] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.001066] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001075] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001084] (-) JobUnselected: {'identifier': 'ros_gz'}
+[0.001093] (-) JobUnselected: {'identifier': 'ros_gz_bridge'}
+[0.001102] (-) JobUnselected: {'identifier': 'ros_gz_image'}
+[0.001111] (-) JobUnselected: {'identifier': 'ros_gz_interfaces'}
+[0.001120] (-) JobUnselected: {'identifier': 'ros_gz_sim'}
+[0.001130] (-) JobUnselected: {'identifier': 'ros_gz_sim_demos'}
+[0.001139] (-) JobUnselected: {'identifier': 'ros_ign'}
+[0.001148] (-) JobUnselected: {'identifier': 'ros_ign_bridge'}
+[0.001157] (-) JobUnselected: {'identifier': 'ros_ign_gazebo'}
+[0.001166] (-) JobUnselected: {'identifier': 'ros_ign_gazebo_demos'}
+[0.001175] (-) JobUnselected: {'identifier': 'ros_ign_image'}
+[0.001184] (-) JobUnselected: {'identifier': 'ros_ign_interfaces'}
+[0.001193] (-) JobUnselected: {'identifier': 'sdformat_test_files'}
+[0.001202] (-) JobUnselected: {'identifier': 'sdformat_urdf'}
+[0.001211] (-) JobUnselected: {'identifier': 'test_ros_gz_bridge'}
+[0.001220] (-) JobUnselected: {'identifier': 'urdf_tutorial_r2d2'}
+[0.001231] (py_2wbot_ctrl) JobQueued: {'identifier': 'py_2wbot_ctrl', 'dependencies': OrderedDict()}
+[0.001243] (py_2wbot_ctrl) JobStarted: {'identifier': 'py_2wbot_ctrl'}
+[0.100125] (-) TimerEvent: {}
+[0.200427] (-) TimerEvent: {}
+[0.212225] (py_2wbot_ctrl) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.212576] (py_2wbot_ctrl) JobEnded: {'identifier': 'py_2wbot_ctrl', 'rc': 1}
+[0.222785] (-) EventReactorShutdown: {}
